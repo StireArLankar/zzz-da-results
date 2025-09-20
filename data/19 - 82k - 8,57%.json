@@ -1,0 +1,229 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 9,
+      "day": 5,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 9,
+      "day": 19,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 857,
+    "list": [
+      {
+        "score": 25037,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 9,
+          "day": 10,
+          "hour": 7,
+          "minute": 40,
+          "second": 29
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/dd2ca4c022d8b795f0233f496f902c6f.png",
+            "name": "The Defiler",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/986a30e1864ce61d6968f0377740eeaa.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/ed2f6c11cb43a14324e28351bed9441c.png",
+            "desc": "· When there are 1/2 Agents with Attack specialty in the squad, the whole squad deals 20%/40% <color=#2BAD00>bonus</color> DMG.\\n· After triggering a critical hit, the Agent's <color=#2EB6FF>Electric DMG</color> <color=#2BAD00>increases</color> by 30%; for Agents with Attack specialty, their CRIT DMG <color=#2BAD00>further increases</color> by 40% for 5s. Repeated triggers reset the duration.",
+            "name": "Fiery Assault"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1461,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1461.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1391,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1391.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1021,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1021.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54019,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/c01149f319008c26ca775b9f54226903.png"
+        }
+      },
+      {
+        "score": 32196,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 9,
+          "day": 6,
+          "hour": 3,
+          "minute": 24,
+          "second": 23
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/6fe66289335661278cd4e04dec0baac6.png",
+            "name": "Miasmic Fiend - Unfathomable",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/e9820a238e1433c1052e21e3f92e8b06.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/41e49f493ae65513f7cc55abb0fe9cb8.png",
+            "desc": "· Agent DMG <color=#2BAD00>increases by 20%</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increases by an additional 20%</color>.\\n· After inflicting an Attribute Anomaly on an enemy, the enemy's DEF <color=#2BAD00>decreases by 10%</color> for 10s. After inflicting Disorder on an enemy, the enemy's DEF <color=#2BAD00>further decreases by 25%</color> for 10s. Each effect's duration refreshes individually.",
+            "name": "Artful"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1221,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1221.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1411,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1411.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1331,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1331.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54016,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/55912ff0ddb1ca22a9d78248e5f0a923.png"
+        }
+      },
+      {
+        "score": 24696,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 9,
+          "day": 6,
+          "hour": 3,
+          "minute": 19,
+          "second": 35
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/283aaeaf890f3e87acd3e89b33d2ce59.png",
+            "name": "Miasma Priest",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/7226e37f8e6f0aaf4a782fea6aada4f3.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/ed2f6c11cb43a14324e28351bed9441c.png",
+            "desc": "· When there are 1/2 Agents with Attack specialty in the squad, the whole squad deals 20%/40% <color=#2BAD00>bonus</color> DMG.\\n· After triggering a critical hit, the Agent's <color=#2EB6FF>Electric DMG</color> <color=#2BAD00>increases</color> by 30%; for Agents with Attack specialty, their CRIT DMG <color=#2BAD00>further increases</color> by 40% for 5s. Repeated triggers reset the duration.",
+            "name": "Fiery Assault"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1381,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1381.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1361,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1361.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1031,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1031.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54008,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/26a548da4eb54aa9b5bf5e79ea400acd.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "Хлебок",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3efnc/b33b94b4829e6a02537de9fa411be692.png",
+    "total_score": 81929,
+    "total_star": 9,
+    "zone_id": 69019
+  }
+}

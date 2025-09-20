@@ -1,0 +1,163 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 6,
+      "day": 13,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 6,
+      "day": 27,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 3428,
+    "list": [
+      {
+        "score": 40089,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 6,
+          "day": 26,
+          "hour": 16,
+          "minute": 36,
+          "second": 29
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud2dbc/25ab9e2e868855c80ceb88a93b96edcc.png",
+            "name": "Miasma Priest",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud2dbc/c0c0671b4c819dcde17a6a652492735a.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud2dbc/3501c2049ca4ec80f3bcb659e9c9fbfa.png",
+            "desc": "· Agent Max HP <color=#2BAD00>increases by 30%</color>, Ultimate DMG <color=#2BAD00>increases by 40%</color>.\\n· After using an Ultimate, Energy and Adrenaline Generation Rate <color=#2BAD00>increase by 15%</color>, <color=#FE437E>Ether DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 40%</color> for 20s.",
+            "name": "Meditation"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1311,
+            "level": 57,
+            "element_type": 205,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1311.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1371,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 6,
+            "rarity": "S",
+            "rank": 3,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1371.png",
+            "sub_element_type": 2
+          },
+          {
+            "id": 1421,
+            "level": 50,
+            "element_type": 200,
+            "avatar_profession": 5,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1421.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54017,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud2dbc/6fd5f227357a8f68fe9926dd018935a1.png"
+        }
+      },
+      {
+        "score": 20002,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 6,
+          "day": 24,
+          "hour": 10,
+          "minute": 21,
+          "second": 12
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud2dbc/e6d579b2036d8912ac6ea2f71847fbc9.png",
+            "name": "Notorious - Marionette",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud2dbc/916e036309c6e66a8f06f29dbd8d7cfc.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud2dbc/8b85008dcf8c5571531f5b343224717a.png",
+            "desc": "· <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge Counter</color>, <color=#FFFFFF>EX Special Attack</color>, and <color=#FFFFFF>Dash Attack</color> DMG increases by <color=#2BAD00>30%</color>.\\n· After triggering a <color=#FFFFFF>Perfect Dodge</color> or <color=#FFFFFF>Perfect Assist</color>, increases all squad members' ATK by <color=#2BAD00>10%</color> and CRIT DMG by <color=#2BAD00>10%</color> for 15s. Stacks up to 3 times. The duration of each stack is calculated separately.",
+            "name": "Interrupt"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1291,
+            "level": 58,
+            "element_type": 202,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1291.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1161,
+            "level": 57,
+            "element_type": 201,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1161.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1141,
+            "level": 52,
+            "element_type": 202,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1141.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54016,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud2dbc/7c17939cf4e38a60470abbb28f020a3a.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "Solaris",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud2dbc/74e8a921ee08406acc9522d5980d75fb.png",
+    "total_score": 60091,
+    "total_star": 6,
+    "zone_id": 69013
+  }
+}

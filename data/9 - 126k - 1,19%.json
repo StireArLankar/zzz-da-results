@@ -1,0 +1,229 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 4,
+      "day": 18,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 5,
+      "day": 2,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 119,
+    "list": [
+      {
+        "score": 39879,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 4,
+          "day": 18,
+          "hour": 11,
+          "minute": 8,
+          "second": 53
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/1364a7938e3c491ba8d02a4a4660f90f.png",
+            "name": "Dead End Butcher",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/9e83fb701587f3cc09bce6093e992844.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/5ce7c50320aa8e0ae0cdd304651d227c.png",
+            "desc": "· The Agent's Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\\n· <color=#FFFFFF>Ultimate</color> DMG <color=#2BAD00>increases by 30%</color>. When the <color=#FFFFFF>Ultimate</color> hits an enemy, it reduces the enemy's DEF by <color=#2BAD00>15%</color> for 20s.",
+            "name": "Final Assault"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1241,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1241.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1251,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1251.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1031,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1031.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54009,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/f3405733dad988918b4a11118a9174b0.png"
+        }
+      },
+      {
+        "score": 43358,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 4,
+          "day": 19,
+          "hour": 23,
+          "minute": 6,
+          "second": 9
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/0c27a791c3a5a197b1eba2d95783af93.png",
+            "name": "Sacrifice - Bringer",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/7e55be54a52c8b3db0a07bafd0aadd1a.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/972837103d0021393237965d2bd281fb.png",
+            "desc": "· Agent <color=#FF5521>Fire Anomaly Buildup Rate</color> and <color=#FE437E>Ether Anomaly Buildup Rate</color> is increased by <color=#2BAD00>20%</color>, and Anomaly Proficiency by <color=#2BAD00>80</color>.\\n· When triggering an Attribute Anomaly, the enemy's DEF is reduced by <color=#2BAD00>15%</color>, and the damage they receive from Attribute Anomalies will be increased by <color=#2BAD00>40%</color> for 15s. Repeated triggers reset the duration.",
+            "name": "Metamorphosis"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1091,
+            "level": 60,
+            "element_type": 202,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1091.png",
+            "sub_element_type": 1
+          },
+          {
+            "id": 1171,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1171.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1311,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1311.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54015,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/4ddfae8916054490819232f18de0373f.png"
+        }
+      },
+      {
+        "score": 42734,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 4,
+          "day": 23,
+          "hour": 9,
+          "minute": 43,
+          "second": 10
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/26a949ca485e0cba8d8971cdcce897f2.png",
+            "name": "Unknown Corruption Complex",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/9e83fb701587f3cc09bce6093e992844.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/972837103d0021393237965d2bd281fb.png",
+            "desc": "· Agent <color=#FF5521>Fire Anomaly Buildup Rate</color> and <color=#FE437E>Ether Anomaly Buildup Rate</color> is increased by <color=#2BAD00>20%</color>, and Anomaly Proficiency by <color=#2BAD00>80</color>.\\n· When triggering an Attribute Anomaly, the enemy's DEF is reduced by <color=#2BAD00>15%</color>, and the damage they receive from Attribute Anomalies will be increased by <color=#2BAD00>40%</color> for 15s. Repeated triggers reset the duration.",
+            "name": "Metamorphosis"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1221,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1221.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1331,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1331.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1211,
+            "level": 55,
+            "element_type": 203,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1211.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54008,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/98b0583dce9c273bc1403c97bf779c56.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "Stire",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uea52b/df5f4762b665a7182ad98916b8f61fdd.png",
+    "total_score": 125971,
+    "total_star": 9,
+    "zone_id": 69009
+  }
+}

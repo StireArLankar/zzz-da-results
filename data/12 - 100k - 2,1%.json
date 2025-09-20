@@ -1,0 +1,229 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 5,
+      "day": 30,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 6,
+      "day": 13,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 210,
+    "list": [
+      {
+        "score": 37101,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 5,
+          "day": 30,
+          "hour": 15,
+          "minute": 42,
+          "second": 33
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/b79ef9ae7d4ee581ca575b80af74c689.png",
+            "name": "Notorious - Marionette",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/a428a97829d5f4f4dcd8fb4cccc68662.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/f5d0d97f345f6b2c0a6258fcc5294a1e.png",
+            "desc": "· Agent <color=#FFFFFF>Dodge Counter</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increases by 30%</color>.\\n· When an Agent hits an enemy that is not Stunned, the Daze dealt <color=#2BAD00>increases by 10%</color>. When hitting a Stunned enemy, CRIT DMG <color=#2BAD00>increases by 30%</color>, and the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 25%</color>.",
+            "name": "Collapse"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1291,
+            "level": 60,
+            "element_type": 202,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1291.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1141,
+            "level": 55,
+            "element_type": 202,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1141.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1161,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1161.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54016,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/0f474aa3c3a2693ccbfb267eef4f754a.png"
+        }
+      },
+      {
+        "score": 37359,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 5,
+          "day": 30,
+          "hour": 16,
+          "minute": 17,
+          "second": 30
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/6465ffbfafa741b7cfda9e2aa6169e44.png",
+            "name": "Sacrifice - Bringer",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/1241c9e26ea9155907d604186ba1a7cf.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/49fe1e8633b478f36ec4674ffb8b0af8.png",
+            "desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds.",
+            "name": "Aberration"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1311,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1311.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1221,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1221.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1331,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1331.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54009,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/e4e5effcd01cfd590cfb3f563a5540ec.png"
+        }
+      },
+      {
+        "score": 25605,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 5,
+          "day": 30,
+          "hour": 16,
+          "minute": 50,
+          "second": 37
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/3143a463cd577f8c80a5eb0c7580f319.png",
+            "name": "Notorious - Pompey",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/a428a97829d5f4f4dcd8fb4cccc68662.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/49fe1e8633b478f36ec4674ffb8b0af8.png",
+            "desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds.",
+            "name": "Aberration"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1091,
+            "level": 60,
+            "element_type": 202,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1091.png",
+            "sub_element_type": 1
+          },
+          {
+            "id": 1171,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1171.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1151,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1151.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54011,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/6971ddae4b9ac06633bb4cf44bb4d739.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "Stire",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ue2c9b/34f91cf9c962c46d76c9664ca5e9e869.png",
+    "total_score": 100065,
+    "total_star": 9,
+    "zone_id": 69012
+  }
+}

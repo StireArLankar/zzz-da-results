@@ -1,0 +1,229 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 5,
+      "day": 16,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 5,
+      "day": 30,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 2978,
+    "list": [
+      {
+        "score": 21642,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 5,
+          "day": 21,
+          "hour": 13,
+          "minute": 4,
+          "second": 38
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/a0609e97d4c15c4781cb95029caf2315.png",
+            "name": "Notorious - Marionette",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/17409001fb9a9654fb20638d52d83109.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/8bd895caef20d61094d337a4c3ea02a0.png",
+            "desc": "· Agent <color=#FFFFFF>Special Attack</color>, <color=#FFFFFF>EX Special Attack</color>, and <color=#FFFFFF>Ultimate</color> DMG <color=#2BAD00>increases by 30%</color>.\\n· When an <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Aftershock</color> hits the enemy, the Agent's CRIT DMG <color=#2BAD00>increases by 30%</color> for 20s, and the enemy's DEF is <color=#2BAD00>reduced by 15%</color> for 15s. Repeated triggers reset the duration.",
+            "name": "Raging Storm"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1031,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 5,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1031.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1061,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 1,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1061.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1351,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 2,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1351.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 53017,
+          "rarity": "A",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/c61b6d2a1eb9bf1052cdc2eff95328fe.png"
+        }
+      },
+      {
+        "score": 20651,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 5,
+          "day": 22,
+          "hour": 21,
+          "minute": 53,
+          "second": 59
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/9f881bf0129cf85121e4bb4ed749dcd0.png",
+            "name": "Notorious - Dead End Butcher",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/17409001fb9a9654fb20638d52d83109.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/fd9d00d44425e279e00d660737d5ec02.png",
+            "desc": "· Increases Agent Anomaly Buildup Rate by <color=#2BAD00>25%</color> and Anomaly Proficiency by <color=#2BAD00>40</color>.\\n· When an enemy suffers an Attribute Anomaly, Agents recover <color=#2BAD00>500</color> additional Decibels and ATK increases by <color=#2BAD00>30%</color> for 15s. The Decibel recovery effect can trigger once every 15s.",
+            "name": "Graceful Mastery"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1151,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1151.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1131,
+            "level": 60,
+            "element_type": 202,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1131.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1281,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 3,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1281.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 53013,
+          "rarity": "A",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/85b13c40fc608da21207a9f54d703a93.png"
+        }
+      },
+      {
+        "score": 20093,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 5,
+          "day": 17,
+          "hour": 11,
+          "minute": 48,
+          "second": 14
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/40403d62f8c1fec9ab13c8465775fba8.png",
+            "name": "Autonomous Assault Unit - Typhon Destroyer",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/5063d276af11e4f1553bcfaa08f47a25.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_3.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/8ff14d2830edb81a485f615d50e86564.png",
+            "desc": "· The Daze dealt by Agents is increased by <color=#2BAD00>10%</color>, and the DMG dealt by Chain Attacks is increased by <color=#2BAD00>50%</color>.\\n· When <color=#FFFFFF>Chain Attacks</color> hit an enemy, the enemy's Stun DMG Multiplier is increased by <color=#2BAD00>25%</color>, and all squad members' ATK is increased by <color=#2BAD00>20%</color> for 15s. Repeated triggers reset the duration.",
+            "name": "Worn Out"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1271,
+            "level": 55,
+            "element_type": 203,
+            "avatar_profession": 5,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1271.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1121,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 5,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1121.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1111,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 1,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1111.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 53010,
+          "rarity": "A",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/7a1c253dd2b16b12138a707b913f5781.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "Winged_Kars",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u3294b/0db183ef910dbfa3b15782eb27af9ddf.png",
+    "total_score": 62386,
+    "total_star": 9,
+    "zone_id": 69011
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 7,
+      "day": 11,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 7,
+      "day": 25,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 3658,
+    "list": [
+      {
+        "score": 25436,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 7,
+          "day": 13,
+          "hour": 7,
+          "minute": 22,
+          "second": 28
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/1c3e482d6d43f13d1137399e02308ae6.png",
+            "name": "Miasma Priest",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/9135bffad70c9bf5f0c3bed14b68451b.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/64d2571110605759b349d55f3b8ca648.png",
+            "desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration.",
+            "name": "Rapid Aid"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1201,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 3,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1201.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1361,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1361.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1211,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1211.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54008,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/860cb6876896c9a92139697b0cba8584.png"
+        }
+      },
+      {
+        "score": 19915,
+        "star": 2,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 7,
+          "day": 13,
+          "hour": 7,
+          "minute": 32,
+          "second": 3
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/08bf135f0363ba31a11465d0b38cca25.png",
+            "name": "Corrupted Overlord - Pompey",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/0ab527b2d8f3694fe283d0e92834ba19.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/64d2571110605759b349d55f3b8ca648.png",
+            "desc": "· Agent Max HP <color=#2BAD00>increases by 30%</color>, Ultimate DMG <color=#2BAD00>increases by 40%</color>.\\n· After using an Ultimate, Energy and Adrenaline Generation Rate <color=#2BAD00>increase by 15%</color>, <color=#FE437E>Ether DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 40%</color> for 20s.",
+            "name": "Meditation"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1041,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 3,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1041.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1161,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1161.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1151,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1151.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54006,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/e99c63a021ac37cef7dc1f16a274e282.png"
+        }
+      },
+      {
+        "score": 16179,
+        "star": 2,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 7,
+          "day": 17,
+          "hour": 9,
+          "minute": 43,
+          "second": 9
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/5b468d448890304d16cb69de9371cb12.png",
+            "name": "Notorious - Dead End Butcher",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/0ab527b2d8f3694fe283d0e92834ba19.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/5502269a754e65f32cc16c2ad4836fe2.png",
+            "desc": "· Agent <color=#FE437E>Ether Anomaly Buildup Rate</color> and <color=#F0D12B>Physical Anomaly Buildup Rate</color> <color=#2BAD00>increases by 20%</color>, Anomaly Proficiency increases by 60.\\n· When an Agent hits enemies affected by Attribute Anomaly, DMG dealt <color=#2BAD00>increases by 25%</color> and ignores <color=#2BAD00>15%</color> of enemy DEF.",
+            "name": "Illusory Surge"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1411,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1411.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1261,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1261.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1181,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1181.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54013,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/0736c81f3cd55ebff39fa464cb97ab80.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "crow",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_ud1fhc/5d48a0d4b3e7aa5199987bd5756fc9e9.png",
+    "total_score": 61530,
+    "total_star": 7,
+    "zone_id": 69015
+  }
+}

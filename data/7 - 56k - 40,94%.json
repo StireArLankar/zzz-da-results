@@ -1,0 +1,229 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 3,
+      "day": 21,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 4,
+      "day": 4,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 4094,
+    "list": [
+      {
+        "score": 18570,
+        "star": 2,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 3,
+          "day": 21,
+          "hour": 17,
+          "minute": 52,
+          "second": 27
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/2424dc2f684bd537e0cbaf561f3547bc.png",
+            "name": "Unknown Corruption Complex",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/260906a7f71df99db5703e0963f00f22.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/65a73924bd0362508eff248673340efc.png",
+            "desc": "· Increases Agent Anomaly Buildup Rate by <color=#2BAD00>25%</color> and Anomaly Proficiency by <color=#2BAD00>40</color>.\\n· When an enemy suffers an Attribute Anomaly, Agents recover <color=#2BAD00>500</color> additional Decibels and ATK increases by <color=#2BAD00>30%</color> for 15s. The Decibel recovery effect can trigger once every 15s.",
+            "name": "Graceful Mastery"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1091,
+            "level": 60,
+            "element_type": 202,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1091.png",
+            "sub_element_type": 1
+          },
+          {
+            "id": 1271,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 5,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1271.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1031,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1031.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54015,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/b95efc17c40f64abc4d5694ef16651a3.png"
+        }
+      },
+      {
+        "score": 17698,
+        "star": 2,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 3,
+          "day": 21,
+          "hour": 17,
+          "minute": 57,
+          "second": 28
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/972efe5ca33a8f9424a5552cc2d7a676.png",
+            "name": "Corrupted Overlord - Pompey",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/260906a7f71df99db5703e0963f00f22.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/2585e2b2f511020540948ec48e888339.png",
+            "desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration.",
+            "name": "Rapid Aid"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1321,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1321.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1161,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1161.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1171,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1171.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54011,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/3a87b70793e442fcda24422a7335fe28.png"
+        }
+      },
+      {
+        "score": 19470,
+        "star": 2,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 3,
+          "day": 21,
+          "hour": 17,
+          "minute": 41,
+          "second": 52
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/f79a592322453d2f4e1535b4f9522883.png",
+            "name": "Autonomous Assault Unit - Typhon Destroyer",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/a5ffd5c4a41c4a437f896ab07d8f0f75.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_3.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/65a73924bd0362508eff248673340efc.png",
+            "desc": "· Increases Agent Anomaly Buildup Rate by <color=#2BAD00>25%</color> and Anomaly Proficiency by <color=#2BAD00>40</color>.\\n· When an enemy suffers an Attribute Anomaly, Agents recover <color=#2BAD00>500</color> additional Decibels and ATK increases by <color=#2BAD00>30%</color> for 15s. The Decibel recovery effect can trigger once every 15s.",
+            "name": "Graceful Mastery"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1211,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1211.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1221,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1221.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1201,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1201.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54008,
+          "rarity": "S",
+          "level": 50,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/417484bff2f96b97ffae8d261fe97244.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "☯Ю尸น人闩☯",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/b04eca856286afc0c6d937935dd62155.png",
+    "total_score": 55738,
+    "total_star": 6,
+    "zone_id": 69007
+  }
+}

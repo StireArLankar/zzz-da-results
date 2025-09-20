@@ -1,0 +1,30 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 2,
+      "day": 7,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 2,
+      "day": 21,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 390,
+    "list": [],
+    "has_data": true,
+    "nick_name": "Stire",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/80dcfe7925d6d7c8e92deb13d9f32887.png",
+    "total_score": 80897,
+    "total_star": 9,
+    "zone_id": 69004
+  }
+}

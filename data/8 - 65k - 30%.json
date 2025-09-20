@@ -1,0 +1,229 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 4,
+      "day": 4,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 4,
+      "day": 18,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 3004,
+    "list": [
+      {
+        "score": 21952,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 4,
+          "day": 5,
+          "hour": 17,
+          "minute": 29,
+          "second": 35
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/a7dba7b2e4bad811b4ffaea00516d9e1.png",
+            "name": "Notorious - Marionette",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/260906a7f71df99db5703e0963f00f22.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/65a73924bd0362508eff248673340efc.png",
+            "desc": "· Agent <color=#FF5521>Fire Anomaly Buildup Rate</color> and <color=#98EFF0>Ice Anomaly Buildup Rate</color> <color=#2BAD00>increase by 20%</color>, and ATK <color=#2BAD00>increases by 25%</color>.\\n· When inflicting an <color=#FFFFFF>Attribute Anomaly</color> on enemies, the Agent <color=#2BAD00>restores 400 Decibels</color> and <color=#2BAD00>Anomaly Proficiency is increased by 80</color>, lasting 15s. Decibels recovery can be triggered once every 15s.",
+            "name": "Blazing Chill"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1091,
+            "level": 60,
+            "element_type": 202,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1091.png",
+            "sub_element_type": 1
+          },
+          {
+            "id": 1191,
+            "level": 60,
+            "element_type": 202,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1191.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1031,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1031.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54001,
+          "rarity": "S",
+          "level": 50,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/0ecd617e29f32969a896c97f443edbb8.png"
+        }
+      },
+      {
+        "score": 21974,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 4,
+          "day": 5,
+          "hour": 18,
+          "minute": 26,
+          "second": 13
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/f79a592322453d2f4e1535b4f9522883.png",
+            "name": "Autonomous Assault Unit - Typhon Destroyer",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/a5ffd5c4a41c4a437f896ab07d8f0f75.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_3.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/65a73924bd0362508eff248673340efc.png",
+            "desc": "· Agent <color=#FF5521>Fire Anomaly Buildup Rate</color> and <color=#98EFF0>Ice Anomaly Buildup Rate</color> <color=#2BAD00>increase by 20%</color>, and ATK <color=#2BAD00>increases by 25%</color>.\\n· When inflicting an <color=#FFFFFF>Attribute Anomaly</color> on enemies, the Agent <color=#2BAD00>restores 400 Decibels</color> and <color=#2BAD00>Anomaly Proficiency is increased by 80</color>, lasting 15s. Decibels recovery can be triggered once every 15s.",
+            "name": "Blazing Chill"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1211,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1211.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1221,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1221.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1201,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1201.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54014,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/bd77b8727fe5d740ecdac607b7e9d460.png"
+        }
+      },
+      {
+        "score": 20906,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 4,
+          "day": 5,
+          "hour": 18,
+          "minute": 21,
+          "second": 22
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/6ea0ca10d5c9423beeadb837f0067e0a.png",
+            "name": "Notorious - Pompey",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/260906a7f71df99db5703e0963f00f22.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/65a73924bd0362508eff248673340efc.png",
+            "desc": "· Agent <color=#FF5521>Fire Anomaly Buildup Rate</color> and <color=#98EFF0>Ice Anomaly Buildup Rate</color> <color=#2BAD00>increase by 20%</color>, and ATK <color=#2BAD00>increases by 25%</color>.\\n· When inflicting an <color=#FFFFFF>Attribute Anomaly</color> on enemies, the Agent <color=#2BAD00>restores 400 Decibels</color> and <color=#2BAD00>Anomaly Proficiency is increased by 80</color>, lasting 15s. Decibels recovery can be triggered once every 15s.",
+            "name": "Blazing Chill"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1321,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1321.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1161,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1161.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1171,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1171.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54015,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/b95efc17c40f64abc4d5694ef16651a3.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "☯Ю尸น人闩☯",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/b04eca856286afc0c6d937935dd62155.png",
+    "total_score": 64832,
+    "total_star": 9,
+    "zone_id": 69008
+  }
+}

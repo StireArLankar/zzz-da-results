@@ -1,0 +1,229 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 2,
+      "day": 21,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 3,
+      "day": 7,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 2902,
+    "list": [
+      {
+        "score": 20125,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 2,
+          "day": 21,
+          "hour": 22,
+          "minute": 11,
+          "second": 48
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/91709571b1d3bf6aabfec4e19f4cbf00.png",
+            "name": "Notorious - Pompey",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/bbdd951577eb81afbbb84ac07576d86c.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/882f7e392846d8861911f01ae90912fd.png",
+            "desc": "· The Agent's <color=#FF5521>Fire Anomaly Buildup Rate</color> and <color=#98EFF0>Ice Anomaly Buildup Rate</color> <color=#2BAD00>increase by 20%</color>, and ATK <color=#2BAD00>increases by 25%</color>.\\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, the Agent <color=#2BAD00>restores 300 Decibels</color> and <color=#2BAD00>increases Anomaly Proficiency by 80 points</color>, lasting 15s.",
+            "name": "Blazing Chill"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1151,
+            "level": 55,
+            "element_type": 201,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1151.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1031,
+            "level": 55,
+            "element_type": 205,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 3,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1031.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1281,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 3,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1281.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 53015,
+          "rarity": "A",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/4b04efbe0e45c8586b01514e95ed0227.png"
+        }
+      },
+      {
+        "score": 20990,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 2,
+          "day": 22,
+          "hour": 21,
+          "minute": 36,
+          "second": 57
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/6edea7d1fe9ddb35ef6342bde5adacde.png",
+            "name": "Sacrifice - Bringer",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/3c5bbcb802f928ddfd28b9d63754a04f.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/02d47975c65eff99f700081b904b7929.png",
+            "desc": "· The Agent's Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\\n· <color=#FFFFFF>Ultimate</color> DMG <color=#2BAD00>increases by 30%</color>. When the <color=#FFFFFF>Ultimate</color> hits an enemy, it reduces the enemy's DEF by <color=#2BAD00>15%</color> for 20s.",
+            "name": "Final Assault"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1211,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1211.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1201,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1201.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1181,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1181.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54008,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/e8fd5baaea344ad619759cdedb45a117.png"
+        }
+      },
+      {
+        "score": 21003,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 2,
+          "day": 21,
+          "hour": 21,
+          "minute": 53,
+          "second": 27
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/6a1f4b56538966b7008e9d9b6e937638.png",
+            "name": "Dead End Butcher",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/bbdd951577eb81afbbb84ac07576d86c.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/80b1cdd431a6cf6511f0533a8bcd209f.png",
+            "desc": "· The Agent's Daze value dealt <color=#2BAD00>increases by 15%</color>, and the DMG dealt by <color=#FFFFFF>Chain Attack</color> <color=#2BAD00>increases by 60%</color>.\\n· Each use of <color=#FFFFFF>Chain Attack</color> increases the all squad members' ATK by <color=#2BAD00>10%</color> for 20 seconds, stacking up to 4 times. The duration of each stack is calculated separately.",
+            "name": "Dazing Force"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1071,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 5,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1071.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1101,
+            "level": 55,
+            "element_type": 201,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1101.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1041,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1041.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54006,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/842ee3c235f2c584ef53baa930d607f5.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "Winged_Kars",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u66fwb/034834528ed8ce413867cde8c5dd6705.png",
+    "total_score": 62118,
+    "total_star": 9,
+    "zone_id": 69005
+  }
+}

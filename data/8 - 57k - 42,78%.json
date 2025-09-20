@@ -1,0 +1,229 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 4,
+      "day": 4,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 4,
+      "day": 18,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 4278,
+    "list": [
+      {
+        "score": 21305,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 4,
+          "day": 4,
+          "hour": 16,
+          "minute": 24,
+          "second": 56
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/a7dba7b2e4bad811b4ffaea00516d9e1.png",
+            "name": "Notorious - Marionette",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/260906a7f71df99db5703e0963f00f22.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/0d1c325be5f4d5f5c1cd4d3e9c0ccee5.png",
+            "desc": "· DMG dealt by Agent <color=#FFFFFF>Aftershocks</color> and <color=#FFFFFF>Chain Attacks</color> is <color=#2BAD00>increased by 30%</color>.\\n· When an <color=#FFFFFF>Aftershock</color> or <color=#FFFFFF>Dodge Counter</color> hits an enemy, all squad members' ATK is <color=#2BAD00>increased by 15%</color>, and CRIT DMG is <color=#2BAD00>increased by 40%</color> for 20s. Repeated triggers reset the duration.",
+            "name": "Swift Advance"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1211,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1211.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1201,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1201.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1181,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1181.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54008,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/417484bff2f96b97ffae8d261fe97244.png"
+        }
+      },
+      {
+        "score": 20704,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 4,
+          "day": 4,
+          "hour": 16,
+          "minute": 20,
+          "second": 30
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/f79a592322453d2f4e1535b4f9522883.png",
+            "name": "Autonomous Assault Unit - Typhon Destroyer",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/a5ffd5c4a41c4a437f896ab07d8f0f75.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_3.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/0d1c325be5f4d5f5c1cd4d3e9c0ccee5.png",
+            "desc": "· DMG dealt by Agent <color=#FFFFFF>Aftershocks</color> and <color=#FFFFFF>Chain Attacks</color> is <color=#2BAD00>increased by 30%</color>.\\n· When an <color=#FFFFFF>Aftershock</color> or <color=#FFFFFF>Dodge Counter</color> hits an enemy, all squad members' ATK is <color=#2BAD00>increased by 15%</color>, and CRIT DMG is <color=#2BAD00>increased by 40%</color> for 20s. Repeated triggers reset the duration.",
+            "name": "Swift Advance"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1071,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 5,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1071.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1381,
+            "level": 50,
+            "element_type": 203,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1381.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1361,
+            "level": 45,
+            "element_type": 203,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1361.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 53015,
+          "rarity": "A",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/ac4ce4b8d5857af1f1b3bb2228b83644.png"
+        }
+      },
+      {
+        "score": 14955,
+        "star": 2,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 4,
+          "day": 4,
+          "hour": 16,
+          "minute": 14,
+          "second": 38
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/6ea0ca10d5c9423beeadb837f0067e0a.png",
+            "name": "Notorious - Pompey",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/260906a7f71df99db5703e0963f00f22.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/0d1c325be5f4d5f5c1cd4d3e9c0ccee5.png",
+            "desc": "· DMG dealt by Agent <color=#FFFFFF>Aftershocks</color> and <color=#FFFFFF>Chain Attacks</color> is <color=#2BAD00>increased by 30%</color>.\\n· When an <color=#FFFFFF>Aftershock</color> or <color=#FFFFFF>Dodge Counter</color> hits an enemy, all squad members' ATK is <color=#2BAD00>increased by 15%</color>, and CRIT DMG is <color=#2BAD00>increased by 40%</color> for 20s. Repeated triggers reset the duration.",
+            "name": "Swift Advance"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1151,
+            "level": 55,
+            "element_type": 201,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1151.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1041,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1041.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1351,
+            "level": 55,
+            "element_type": 200,
+            "avatar_profession": 2,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1351.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54006,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/ba2b6751557e05de40ad2e8e349da039.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "Winged_Kars",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u44f0b/f77b6c5f7ad8111b138d4c95a852db5f.png",
+    "total_score": 56964,
+    "total_star": 8,
+    "zone_id": 69008
+  }
+}

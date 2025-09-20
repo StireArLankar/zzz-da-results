@@ -1,0 +1,229 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2025,
+      "month": 3,
+      "day": 7,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2025,
+      "month": 3,
+      "day": 21,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 3450,
+    "list": [
+      {
+        "score": 22117,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 3,
+          "day": 8,
+          "hour": 18,
+          "minute": 1,
+          "second": 19
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/08ae6d92ecf1aebe35acc5ba2f3e9ebd.png",
+            "name": "Unknown Corruption Complex",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/5b6e2e9f3526ffc4d49be17046d58457.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/eedf0297040987a9448562967eb1bb2c.png",
+            "desc": "· The Agent's <color=#FF5521>Fire DMG</color> and <color=#2EB6FF>Electric DMG</color> will <color=#2BAD00>increase by 25%</color>.\\n· After triggering <color=#FFFFFF>Chain Attack</color>, <color=#FFFFFF>Perfect Assist</color>, or <color=#FFFFFF>Quick Assist</color>, the Agent's CRIT Rate <color=#2BAD00>increases by 20%</color> and CRIT DMG <color=#2BAD00>increases by 40%</color> for 20s.",
+            "name": "Electrospark"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1211,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1211.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1221,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1221.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1201,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1201.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54008,
+          "rarity": "S",
+          "level": 50,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/e5390557dfa9b92095450cf322d87d60.png"
+        }
+      },
+      {
+        "score": 19979,
+        "star": 2,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 3,
+          "day": 8,
+          "hour": 17,
+          "minute": 56,
+          "second": 21
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/c2f3879aa0d7d672fbc105311137dbf2.png",
+            "name": "Sacrifice - Bringer",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/c9b4da7ffd4853e71c4d6cf6d99cbf99.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/167cb8aaf184658ce7d3e2eee7fcff02.png",
+            "desc": "· The Agent's Anomaly Buildup Rate <color=#2BAD00>increases by 10%</color>, and when a shield is active, the Anomaly Buildup Rate <color=#2BAD00>further increases by 20%</color>.\\n· When attacking enemies in an Attribute Anomaly state, the Agent's DMG <color=#2BAD00>increases by 40%</color>.",
+            "name": "Anomaly Surge"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1091,
+            "level": 60,
+            "element_type": 202,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1091.png",
+            "sub_element_type": 1
+          },
+          {
+            "id": 1141,
+            "level": 60,
+            "element_type": 202,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1141.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1031,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1031.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54001,
+          "rarity": "S",
+          "level": 50,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/8a61847b7eb61b482a8a970d0d0709d9.png"
+        }
+      },
+      {
+        "score": 16058,
+        "star": 2,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2025,
+          "month": 3,
+          "day": 8,
+          "hour": 18,
+          "minute": 6,
+          "second": 43
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/0b470c1c8418a45c6d9ba7a6e104eddd.png",
+            "name": "Notorious - Pompey",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/5b6e2e9f3526ffc4d49be17046d58457.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/eedf0297040987a9448562967eb1bb2c.png",
+            "desc": "· The Agent's <color=#FF5521>Fire DMG</color> and <color=#2EB6FF>Electric DMG</color> will <color=#2BAD00>increase by 25%</color>.\\n· After triggering <color=#FFFFFF>Chain Attack</color>, <color=#FFFFFF>Perfect Assist</color>, or <color=#FFFFFF>Quick Assist</color>, the Agent's CRIT Rate <color=#2BAD00>increases by 20%</color> and CRIT DMG <color=#2BAD00>increases by 40%</color> for 20s.",
+            "name": "Electrospark"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1321,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1321.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1161,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1161.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1171,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 3,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1171.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54015,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/f0a67373804b6cc5c69a6124aa7c1be8.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "☯Ю尸น人闩☯",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_u072yb/c03b222a151ae69d5392b7c61dcd4168.png",
+    "total_score": 58154,
+    "total_star": 7,
+    "zone_id": 69006
+  }
+}
