@@ -38,8 +38,12 @@ https://sg-public-api.hoyolab.com/event/game_record_zzz/api/zzz/mem_detail?uid={
 
 ```
 zzz/
-├── data/                          # JSON data files from ZZZ Deadly Assault
-│   ├── 2 - 120k - 0,45%.json     # Format: {cycle} - {score} - {percentile}.json
+├── data/                          # Directory containing dataset folders
+│   ├── 1/                         # Dataset 1 files
+│   │   └── 1 - 105k - 0,78%.json  # Format: {cycle} - {score} - {percentile}.json
+│   ├── 2/                         # Dataset 2 files
+│   │   ├── 2 - 120k - 0,45%.json
+│   │   └── ...
 │   └── ...
 ├── compiled.json                  # Processed results with polynomial models
 ├── analytics_report.md            # Detailed analysis report
@@ -52,7 +56,7 @@ zzz/
 ### Prerequisites
 
 - Node.js (version 12 or higher)
-- JSON data files in the `data/` directory
+- JSON data files organized in subdirectories within the `data/` directory
 
 ### Basic Usage
 
@@ -138,7 +142,7 @@ JSON files should contain ZZZ Deadly Assault data:
 
 When adding new cycle data:
 
-1. Place JSON files in the `data/` directory with proper naming format
+1. Place JSON files in the appropriate numbered subdirectory within the `data/` directory with proper naming format
 2. Run `node process_data.js` to update the compiled results
 3. Use `node analyze.js` to update trend analysis
 4. Verify accuracy with `node validate_accuracy.js`

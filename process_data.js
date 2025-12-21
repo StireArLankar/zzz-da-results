@@ -149,41 +149,51 @@ function extractDatasetNumber(filename) {
 // Main processing function
 async function processData() {
   const dataDir = path.join(__dirname, 'data')
-  const files = fs.readdirSync(dataDir).filter((file) => file.endsWith('.json'))
+  const subdirs = fs.readdirSync(dataDir).filter((item) => {
+    const itemPath = path.join(dataDir, item)
+    return fs.statSync(itemPath).isDirectory() && /^\d+$/.test(item)
+  })
 
   const datasets = {}
 
-  // Process each file
-  for (const file of files) {
-    const filePath = path.join(dataDir, file)
-    const fileContent = fs.readFileSync(filePath, 'utf8')
-    const jsonData = JSON.parse(fileContent)
+  // Process each subdirectory
+  for (const subdir of subdirs) {
+    const subdirPath = path.join(dataDir, subdir)
+    const files = fs
+      .readdirSync(subdirPath)
+      .filter((file) => file.endsWith('.json'))
 
-    const datasetNumber = extractDatasetNumber(file)
-    if (!datasetNumber) {
-      console.warn(`Failed to extract dataset number from file: ${file}`)
-      continue
+    for (const file of files) {
+      const filePath = path.join(subdirPath, file)
+      const fileContent = fs.readFileSync(filePath, 'utf8')
+      const jsonData = JSON.parse(fileContent)
+
+      const datasetNumber = extractDatasetNumber(file)
+      if (!datasetNumber) {
+        console.warn(`Failed to extract dataset number from file: ${file}`)
+        continue
+      }
+
+      // Check zone_id correspondence
+      const expectedZoneId = datasetNumber + 69000
+      if (jsonData.data.zone_id !== expectedZoneId) {
+        console.warn(
+          `Zone_id mismatch in file ${file}: expected ${expectedZoneId}, got ${jsonData.data.zone_id}`
+        )
+        continue
+      }
+
+      // Extract data
+      const score = jsonData.data.total_score
+      const percent = jsonData.data.rank_percent / 100 // Convert from percent * 100 to regular percent
+
+      // Group by dataset number
+      if (!datasets[datasetNumber]) {
+        datasets[datasetNumber] = []
+      }
+
+      datasets[datasetNumber].push({ score, percent })
     }
-
-    // Check zone_id correspondence
-    const expectedZoneId = datasetNumber + 69000
-    if (jsonData.data.zone_id !== expectedZoneId) {
-      console.warn(
-        `Zone_id mismatch in file ${file}: expected ${expectedZoneId}, got ${jsonData.data.zone_id}`
-      )
-      continue
-    }
-
-    // Extract data
-    const score = jsonData.data.total_score
-    const percent = jsonData.data.rank_percent / 100 // Convert from percent * 100 to regular percent
-
-    // Group by dataset number
-    if (!datasets[datasetNumber]) {
-      datasets[datasetNumber] = []
-    }
-
-    datasets[datasetNumber].push({ score, percent })
   }
 
   // Process each dataset

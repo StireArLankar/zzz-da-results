@@ -22,22 +22,28 @@
 | 17      | 39.92%    | 6           | +2.16%               |
 | 18      | 42.60%    | 8           | +2.68%               |
 | 19      | 30.36%    | 8           | -12.24% ⚡           |
+| 20      | 33.09%    | 8           | +2.73%               |
+| 21      | 42.17%    | 8           | +9.08% ⚡            |
+| 22      | 38.72%    | 8           | -3.45%               |
+| 23      | 35.11%    | 8           | -3.61%               |
+| 24      | 40.61%    | 8           | +5.50% ⚡            |
+| 25      | 32.89%    | 7           | -7.72% 📉            |
 
 ## 📈 Basic Statistics
 
 - **Minimum value:** 19.62% (dataset 3)
 - **Maximum value:** 45.67% (dataset 14)
-- **Average value:** 33.42%
+- **Average value:** 34.34%
 - **Range:** 26.05%
-- **Total datasets:** 18
+- **Total datasets:** 24
 
 ## 🔍 Trend Analysis
 
 ### Long-term Dynamics
 
 - **First 5 datasets (2-6):** 24.71% on average
-- **Last 5 datasets (15-19):** 37.82% on average
-- **Overall growth:** +13.11% (+53.1% relative growth)
+- **Last 5 datasets (21-25):** 37.90% on average
+- **Overall growth:** +13.19% (+53.4% relative growth)
 
 ### Development Phases
 
@@ -65,56 +71,75 @@
 - Stabilization after extreme peak
 - More data points for each dataset (4-6)
 
-#### 📈 **Phase 5: New Growth (dataset 18)**
+#### 📈 **Phase 5: High Volatility Period (datasets 18-25)**
 
-- Character: Continuation of upward trend with maximum data quality
-- Value: 42.60% (8 data points, 3rd degree polynomial)
-- Growth: +2.68% from previous dataset
-- Quality: Maximum number of points among all datasets
+- Character: Extreme volatility with oscillations around mean level
+- Dataset 18: 42.60% (8 data points, 3rd degree polynomial) - local peak
+- Dataset 19: 30.36% (8 data points, 3rd degree polynomial) - significant correction (-12.24%)
+- Dataset 20: 33.09% (8 data points, 3rd degree polynomial) - stabilization (+2.73%)
+- Dataset 21: 42.17% (8 data points, 3rd degree polynomial) - strong recovery (+9.08%)
+- Dataset 22: 38.72% (8 data points, 3rd degree polynomial) - moderate correction (-3.45%)
+- Dataset 23: 35.11% (8 data points, 3rd degree polynomial) - continued normalization (-3.61%)
+- Dataset 24: 40.61% (8 data points, 3rd degree polynomial) - renewed upward movement (+5.50%)
+- Dataset 25: 32.89% (7 data points, 3rd degree polynomial) - sharp correction (-7.72%)
+- Quality: High number of points per dataset (7-8 points each)
+- Pattern: Persistent oscillations with alternating up/down movements around ~36% center
 
 ## 🚀 Key Events
 
 ### Significant Changes (>5%)
 
-1. **+7.02%** (dataset 4→5): First significant jump
-2. **-4.89%** (dataset 10→11): Notable correction
-3. **+11.27%** (dataset 13→14): Maximum growth for the period ⚡
-4. **-7.23%** (dataset 14→15): Correction after peak
+1. **-12.24%** (dataset 18→19): Largest drop in the entire observation period ⚡
+2. **+11.27%** (dataset 13→14): Maximum growth for the period ⚡
+3. **+9.08%** (dataset 20→21): Strong recovery after correction ⚡
+4. **-7.72%** (dataset 24→25): Sharp correction after recovery peak
+5. **+7.02%** (dataset 4→5): First significant jump
+6. **-7.23%** (dataset 14→15): Correction after peak
 
-### Stability Periods
+### Volatility Patterns
 
-#### 📉 **Phase 5: New Drop (dataset 19)**
+#### 🎢 **Oscillation Pattern (datasets 18-25)**
 
-- Character: Sharp decline after growth period
-- Value: 30.36% (-12.24% from previous)
-- Feature: Largest drop over entire observation period
+- Character: Sharp decline followed by recovery cycles with alternating up/down movements
+- Dataset 18: 42.60% - high point before correction
+- Dataset 19: 30.36% (-12.24% from previous) - largest drop in history
+- Dataset 20: 33.09% (+2.73% from previous) - stabilization phase
+- Dataset 21: 42.17% (+9.08% from previous) - return to high levels
+- Dataset 22: 38.72% (-3.45% from previous) - moderate correction
+- Dataset 23: 35.11% (-3.61% from previous) - normalization toward mean
+- Dataset 24: 40.61% (+5.50% from previous) - renewed growth phase
+- Dataset 25: 32.89% (-7.72% from previous) - sharp correction after peak
+- Pattern significance: Demonstrates persistent oscillation with mean reversion after peaks - system alternates between highs (~40-42%) and corrections (~30-35%)
 
 ## 💡 Conclusions and Interpretation
 
 ### General Trends
 
-1. **Cyclical trend:** 60Percent values show growth followed by corrections
-2. **Increased volatility:** Later datasets demonstrate larger fluctuations
-3. **New correction:** Dataset 19 shows possibility of significant declines
-4. **Improved data quality:** Datasets 18-19 have maximum number of points (8)
+1. **Strong cyclical pattern:** 60Percent values show clear cycles of growth, correction, and recovery
+2. **Increased volatility:** Later datasets demonstrate larger fluctuations with oscillating behavior
+3. **Oscillation with mean reversion:** System oscillates between ~30% and ~43%, with corrections following peaks
+4. **Improved data quality:** Datasets 18-25 have high number of points (7-8 each)
+5. **Resilience pattern:** System shows ability to recover from significant drops within 2-3 datasets
+6. **Predictable corrections:** Sharp rises (+5-9%) are typically followed by corrections (-3-8%)
 
 ### Possible Causes of Changes
 
 - **Game balancing:** Changes in difficulty or mechanics may affect achievability of certain results
-- **Sample size:** Datasets with more data points (4-6) show more stable values
+- **Sample size:** Datasets with more data points (4-8) show more stable values
 - **Seasonal changes:** Different periods may have had different conditions
 
 ### Recommendations
 
-- **For forecasting:** Consider cyclicality - growth periods are followed by corrections
-- **For planning:** Consider range 30-45% with high volatility
-- **For analysis:** Special attention to datasets with extreme changes (14, 19)
-- **Data quality:** Datasets 18-19 demonstrate advantages of more data points
+- **For forecasting:** Consider oscillation pattern with mean reversion - after peaks (~40-42%), expect corrections (5-8 points down)
+- **For planning:** Consider range 30-43% with high volatility; expect alternating up/down movements
+- **For analysis:** Special attention to datasets with extreme changes (14, 18-19, 21, 24-25)
+- **Data quality:** Datasets 18-25 demonstrate advantages of more data points (7-8 each)
+- **Pattern recognition:** Recent data (18-25) shows oscillating waves with corrections after peaks - useful for predicting future movements
 
 ---
 
 _Analysis performed based on data from compiled.json_
-_Analysis date: September 19, 2025_
-_Approximation accuracy: Average error 0.08%, maximum 1.11%_
+_Analysis date: December 13, 2025_
+_Approximation accuracy: Average error 0.24%, maximum 1.59%_
 _Includes predicted_percent for each data point_
-_Total datasets: 18 (2-19), data points: 68_
+_Total datasets: 24 (2-25), data points: 115_

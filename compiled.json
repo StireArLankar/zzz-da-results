@@ -554,5 +554,312 @@
         "predicted_percent": 8.9
       }
     ]
+  },
+  "20": {
+    "line": "0.000000000000x^3 + 0.000000043250x^2 - 0.005482271714x + 230.479284375059",
+    "coefficients": {
+      "a": -1.1182416310343518e-13,
+      "b": 4.325039242125433e-8,
+      "c": -0.005482271714362215,
+      "d": 230.47928437505905
+    },
+    "60Percent": 33.09,
+    "data": [
+      {
+        "score": 107291,
+        "percent": 2.46,
+        "predicted_percent": 2.04
+      },
+      {
+        "score": 115285,
+        "percent": 1.7,
+        "predicted_percent": 1.94
+      },
+      {
+        "score": 51101,
+        "percent": 48.25,
+        "predicted_percent": 48.35
+      },
+      {
+        "score": 54826,
+        "percent": 41.33,
+        "predicted_percent": 41.49
+      },
+      {
+        "score": 63447,
+        "percent": 28.72,
+        "predicted_percent": 28.19
+      },
+      {
+        "score": 66498,
+        "percent": 24.42,
+        "predicted_percent": 24.29
+      },
+      {
+        "score": 78956,
+        "percent": 11.59,
+        "predicted_percent": 12.2
+      },
+      {
+        "score": 88625,
+        "percent": 6.51,
+        "predicted_percent": 6.48
+      }
+    ]
+  },
+  "21": {
+    "line": "0.000000000000x^3 + 0.000000021470x^2 - 0.003537641211x + 185.662652118728",
+    "coefficients": {
+      "a": -3.947304022798506e-14,
+      "b": 2.146998283611263e-8,
+      "c": -0.003537641210545748,
+      "d": 185.66265211872812
+    },
+    "60Percent": 42.17,
+    "data": [
+      {
+        "score": 109245,
+        "percent": 4.18,
+        "predicted_percent": 3.96
+      },
+      {
+        "score": 118408,
+        "percent": 2.67,
+        "predicted_percent": 2.27
+      },
+      {
+        "score": 128194,
+        "percent": 1.58,
+        "predicted_percent": 1.83
+      },
+      {
+        "score": 54587,
+        "percent": 49.84,
+        "predicted_percent": 50.11
+      },
+      {
+        "score": 58845,
+        "percent": 43.8,
+        "predicted_percent": 43.79
+      },
+      {
+        "score": 62295,
+        "percent": 39.3,
+        "predicted_percent": 39.06
+      },
+      {
+        "score": 64887,
+        "percent": 35.93,
+        "predicted_percent": 35.73
+      },
+      {
+        "score": 96479,
+        "percent": 8.2,
+        "predicted_percent": 8.75
+      }
+    ]
+  },
+  "22": {
+    "line": "0.000000000000x^3 - 0.000000006025x^2 - 0.001159397208x + 115.991215554301",
+    "coefficients": {
+      "a": 6.475820163207124e-14,
+      "b": -6.025447973848017e-9,
+      "c": -0.0011593972080192476,
+      "d": 115.99121555430057
+    },
+    "60Percent": 38.72,
+    "data": [
+      {
+        "score": 118403,
+        "percent": 2.62,
+        "predicted_percent": 1.74
+      },
+      {
+        "score": 123368,
+        "percent": 2.01,
+        "predicted_percent": 2.84
+      },
+      {
+        "score": 31230,
+        "percent": 75.41,
+        "predicted_percent": 75.88
+      },
+      {
+        "score": 51026,
+        "percent": 51.34,
+        "predicted_percent": 49.75
+      },
+      {
+        "score": 71632,
+        "percent": 25.07,
+        "predicted_percent": 25.83
+      },
+      {
+        "score": 73078,
+        "percent": 23.56,
+        "predicted_percent": 24.36
+      },
+      {
+        "score": 77302,
+        "percent": 19.64,
+        "predicted_percent": 20.28
+      },
+      {
+        "score": 91763,
+        "percent": 9.92,
+        "predicted_percent": 8.9
+      }
+    ]
+  },
+  "23": {
+    "line": "0.000000000000x^3 + 0.000000030186x^2 - 0.004260287997x + 196.840722364450",
+    "coefficients": {
+      "a": -6.843750854287474e-14,
+      "b": 3.018608679913381e-8,
+      "c": -0.0042602879966536465,
+      "d": 196.84072236444987
+    },
+    "60Percent": 35.11,
+    "data": [
+      {
+        "score": 108141,
+        "percent": 2.96,
+        "predicted_percent": 2.59
+      },
+      {
+        "score": 115960,
+        "percent": 2.02,
+        "predicted_percent": 2.01
+      },
+      {
+        "score": 118205,
+        "percent": 1.8,
+        "predicted_percent": 1.99
+      },
+      {
+        "score": 46023,
+        "percent": 57.99,
+        "predicted_percent": 58.04
+      },
+      {
+        "score": 49527,
+        "percent": 51.46,
+        "predicted_percent": 51.57
+      },
+      {
+        "score": 61550,
+        "percent": 33.47,
+        "predicted_percent": 33.02
+      },
+      {
+        "score": 74877,
+        "percent": 18.05,
+        "predicted_percent": 18.35
+      },
+      {
+        "score": 89008,
+        "percent": 8.35,
+        "predicted_percent": 8.53
+      }
+    ]
+  },
+  "24": {
+    "line": "0.000000000000x^3 + 0.000000020622x^2 - 0.003493455577x + 183.404775325186",
+    "coefficients": {
+      "a": -3.439409200293467e-14,
+      "b": 2.0621576098283713e-8,
+      "c": -0.00349345557666434,
+      "d": 183.40477532518588
+    },
+    "60Percent": 40.61,
+    "data": [
+      {
+        "score": 115476,
+        "percent": 2.71,
+        "predicted_percent": 2.02
+      },
+      {
+        "score": 126632,
+        "percent": 1.52,
+        "predicted_percent": 1.86
+      },
+      {
+        "score": 52906,
+        "percent": 50.87,
+        "predicted_percent": 51.21
+      },
+      {
+        "score": 63049,
+        "percent": 36.85,
+        "predicted_percent": 36.5
+      },
+      {
+        "score": 66845,
+        "percent": 32.01,
+        "predicted_percent": 31.75
+      },
+      {
+        "score": 67987,
+        "percent": 30.59,
+        "predicted_percent": 30.4
+      },
+      {
+        "score": 85551,
+        "percent": 13.44,
+        "predicted_percent": 13.93
+      },
+      {
+        "score": 91477,
+        "percent": 9.75,
+        "predicted_percent": 10.07
+      }
+    ]
+  },
+  "25": {
+    "line": "0.000000000000x^3 + 0.000000019393x^2 - 0.003451424813x + 174.811206618486",
+    "coefficients": {
+      "a": -2.1526379564272824e-14,
+      "b": 1.9393161401889226e-8,
+      "c": -0.0034514248127614456,
+      "d": 174.81120661848564
+    },
+    "60Percent": 32.89,
+    "data": [
+      {
+        "score": 114843,
+        "percent": 2.01,
+        "predicted_percent": 1.61
+      },
+      {
+        "score": 117569,
+        "percent": 1.77,
+        "predicted_percent": 2.11
+      },
+      {
+        "score": 53830,
+        "percent": 41.72,
+        "predicted_percent": 41.86
+      },
+      {
+        "score": 63942,
+        "percent": 28.05,
+        "predicted_percent": 27.78
+      },
+      {
+        "score": 65142,
+        "percent": 26.48,
+        "predicted_percent": 26.32
+      },
+      {
+        "score": 67704,
+        "percent": 23.25,
+        "predicted_percent": 23.35
+      },
+      {
+        "score": 77727,
+        "percent": 13.35,
+        "predicted_percent": 13.6
+      }
+    ]
   }
 }
