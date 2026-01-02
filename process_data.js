@@ -82,54 +82,76 @@ function polynomialRegression(points, degree) {
   // Solve equation system
   const coefficients = solveLinearSystem(matrix, sumXY)
 
-  // Return coefficients in descending order of degree
-  const result = { a: 0, b: 0, c: 0, d: 0 }
-
-  if (degree >= 3) result.a = coefficients[3]
-  if (degree >= 2) result.b = coefficients[Math.min(2, degree)]
-  if (degree >= 1) result.c = coefficients[Math.min(1, degree)]
-  result.d = coefficients[0]
-
-  return result
+  // Return coefficients as array [a0, a1, a2, ..., an]
+  return coefficients
 }
 
-// Function for 3rd degree polynomial regression (or lower with insufficient points)
-function polynomialRegression3(points) {
-  const maxDegree = Math.min(3, points.length - 1)
-  return polynomialRegression(points, maxDegree)
+// Function to calculate adaptive polynomial degree based on number of points
+function calculateAdaptiveDegree(numPoints) {
+  const formulaDegree = Math.floor(numPoints / 2)
+  const minDegree = 3
+  const maxDegree = 7
+
+  // Maximum degree is limited by points-1 (need at least n+1 points for degree n)
+  const feasibleMaxDegree = Math.min(maxDegree, numPoints - 1)
+
+  // Only use minDegree if we have enough points
+  const effectiveMinDegree = Math.min(minDegree, feasibleMaxDegree)
+
+  const finalDegree = Math.max(
+    effectiveMinDegree,
+    Math.min(formulaDegree, feasibleMaxDegree)
+  )
+  return finalDegree
 }
 
 // Function to format coefficients into formula string with high precision
-function formatPolynomial(coeffs) {
-  const a = coeffs.a
-  const b = coeffs.b
-  const c = coeffs.c
-  const d = coeffs.d
-
+function formatPolynomial(coeffs, degree) {
   // Format with high precision (12 decimal places)
   const formatCoeff = (coeff) => {
-    if (Math.abs(coeff) < 1e-12) return '0.000000000000'
+    if (coeff === undefined || coeff === null || Math.abs(coeff) < 1e-12)
+      return '0.000000000000'
     return coeff.toFixed(12)
   }
 
-  let formula = `${formatCoeff(a)}x^3`
+  let formula = ''
 
-  if (b >= 0) {
-    formula += ` + ${formatCoeff(b)}x^2`
-  } else {
-    formula += ` - ${formatCoeff(Math.abs(b))}x^2`
-  }
+  // Format from highest degree to constant term
+  for (let i = degree; i >= 0; i--) {
+    const coeff = coeffs[i]
+    const formatted = formatCoeff(coeff)
 
-  if (c >= 0) {
-    formula += ` + ${formatCoeff(c)}x`
-  } else {
-    formula += ` - ${formatCoeff(Math.abs(c))}x`
-  }
-
-  if (d >= 0) {
-    formula += ` + ${formatCoeff(d)}`
-  } else {
-    formula += ` - ${formatCoeff(Math.abs(d))}`
+    if (i === degree) {
+      // First term
+      if (i === 0) {
+        formula = formatted
+      } else if (i === 1) {
+        formula = `${formatted}x`
+      } else {
+        formula = `${formatted}x^${i}`
+      }
+    } else {
+      // Subsequent terms
+      if (i === 0) {
+        if (coeff >= 0) {
+          formula += ` + ${formatted}`
+        } else {
+          formula += ` - ${formatCoeff(Math.abs(coeff))}`
+        }
+      } else if (i === 1) {
+        if (coeff >= 0) {
+          formula += ` + ${formatted}x`
+        } else {
+          formula += ` - ${formatCoeff(Math.abs(coeff))}x`
+        }
+      } else {
+        if (coeff >= 0) {
+          formula += ` + ${formatted}x^${i}`
+        } else {
+          formula += ` - ${formatCoeff(Math.abs(coeff))}x^${i}`
+        }
+      }
+    }
   }
 
   return formula
@@ -137,7 +159,11 @@ function formatPolynomial(coeffs) {
 
 // Function to calculate polynomial value at point x
 function evaluatePolynomial(coeffs, x) {
-  return coeffs.a * x * x * x + coeffs.b * x * x + coeffs.c * x + coeffs.d
+  let result = 0
+  for (let i = 0; i < coeffs.length; i++) {
+    result += coeffs[i] * Math.pow(x, i)
+  }
+  return result
 }
 
 // Function to extract dataset number from filename
@@ -207,23 +233,21 @@ async function processData() {
       continue
     }
 
-    // Perform polynomial regression
-    const coefficients = polynomialRegression3(points)
+    // Calculate adaptive polynomial degree
+    const degree = calculateAdaptiveDegree(points.length)
+
+    // Perform polynomial regression with adaptive degree
+    const coefficients = polynomialRegression(points, degree)
 
     // Format formula
-    const line = formatPolynomial(coefficients)
+    const line = formatPolynomial(coefficients, degree)
 
     // Calculate percentage for 60k points
     const percent60k = evaluatePolynomial(coefficients, 60000)
 
     result[datasetNumber] = {
       line: line,
-      coefficients: {
-        a: coefficients.a,
-        b: coefficients.b,
-        c: coefficients.c,
-        d: coefficients.d,
-      },
+      coefficients: coefficients, // Array of coefficients [d, c, b, a, ...]
       '60Percent': Math.round(percent60k * 100) / 100, // Round to 2 decimal places
       data: points.map((p) => ({
         score: p.score,
@@ -234,9 +258,7 @@ async function processData() {
     }
 
     console.log(
-      `Processed dataset ${datasetNumber}: ${
-        points.length
-      } points (polynomial degree: ${Math.min(3, points.length - 1)})`
+      `Processed dataset ${datasetNumber}: ${points.length} points (polynomial degree: ${degree})`
     )
   }
 

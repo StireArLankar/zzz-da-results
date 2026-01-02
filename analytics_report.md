@@ -20,30 +20,31 @@
 | 15      | 38.44%    | 5           | -7.23%               |
 | 16      | 37.76%    | 6           | -0.68%               |
 | 17      | 39.92%    | 6           | +2.16%               |
-| 18      | 42.60%    | 8           | +2.68%               |
-| 19      | 30.36%    | 8           | -12.24% ⚡           |
-| 20      | 33.09%    | 8           | +2.73%               |
-| 21      | 42.17%    | 8           | +9.08% ⚡            |
-| 22      | 38.72%    | 8           | -3.45%               |
-| 23      | 35.11%    | 8           | -3.61%               |
-| 24      | 40.61%    | 8           | +5.50% ⚡            |
-| 25      | 32.89%    | 7           | -7.72% 📉            |
+| 18      | 43.84%    | 8           | +3.92%               |
+| 19      | 30.76%    | 8           | -13.08% ⚡           |
+| 20      | 33.39%    | 8           | +2.63%               |
+| 21      | 42.31%    | 8           | +8.92% ⚡            |
+| 22      | 39.09%    | 8           | -3.22%               |
+| 23      | 35.42%    | 8           | -3.67%               |
+| 24      | 40.89%    | 8           | +5.47% ⚡            |
+| 25      | 32.89%    | 7           | -8.00% 📉            |
+| 26      | 32.50%    | 17          | -0.39%               |
 
 ## 📈 Basic Statistics
 
 - **Minimum value:** 19.62% (dataset 3)
 - **Maximum value:** 45.67% (dataset 14)
-- **Average value:** 34.34%
+- **Average value:** 34.29% (updated)
 - **Range:** 26.05%
-- **Total datasets:** 24
+- **Total datasets:** 25
 
 ## 🔍 Trend Analysis
 
 ### Long-term Dynamics
 
 - **First 5 datasets (2-6):** 24.71% on average
-- **Last 5 datasets (21-25):** 37.90% on average
-- **Overall growth:** +13.19% (+53.4% relative growth)
+- **Last 5 datasets (22-26):** 35.89% on average
+- **Overall growth:** +11.18% (+45.2% relative growth)
 
 ### Development Phases
 
@@ -71,27 +72,29 @@
 - Stabilization after extreme peak
 - More data points for each dataset (4-6)
 
-#### 📈 **Phase 5: High Volatility Period (datasets 18-25)**
+#### 📈 **Phase 5: High Volatility Period (datasets 18-26)**
 
 - Character: Extreme volatility with oscillations around mean level
-- Dataset 18: 42.60% (8 data points, 3rd degree polynomial) - local peak
-- Dataset 19: 30.36% (8 data points, 3rd degree polynomial) - significant correction (-12.24%)
-- Dataset 20: 33.09% (8 data points, 3rd degree polynomial) - stabilization (+2.73%)
-- Dataset 21: 42.17% (8 data points, 3rd degree polynomial) - strong recovery (+9.08%)
-- Dataset 22: 38.72% (8 data points, 3rd degree polynomial) - moderate correction (-3.45%)
-- Dataset 23: 35.11% (8 data points, 3rd degree polynomial) - continued normalization (-3.61%)
-- Dataset 24: 40.61% (8 data points, 3rd degree polynomial) - renewed upward movement (+5.50%)
+- Dataset 18: 43.84% (8 data points, 4th degree polynomial) - local peak
+- Dataset 19: 30.76% (8 data points, 4th degree polynomial) - significant correction (-13.08%)
+- Dataset 20: 33.39% (8 data points, 4th degree polynomial) - stabilization (+2.63%)
+- Dataset 21: 42.31% (8 data points, 4th degree polynomial) - strong recovery (+8.92%)
+- Dataset 22: 39.09% (8 data points, 4th degree polynomial) - moderate correction (-3.22%)
+- Dataset 23: 35.42% (8 data points, 4th degree polynomial) - continued normalization (-3.67%)
+- Dataset 24: 40.89% (8 data points, 4th degree polynomial) - renewed upward movement (+5.47%)
 - Dataset 25: 32.89% (7 data points, 3rd degree polynomial) - sharp correction (-7.72%)
-- Quality: High number of points per dataset (7-8 points each)
-- Pattern: Persistent oscillations with alternating up/down movements around ~36% center
+- Dataset 26: 32.50% (17 data points, 7th degree polynomial) - continued decline (-0.39%)
+- Quality: Variable number of points per dataset (7-17 points), with dataset 26 having record 17 points
+- Pattern: Persistent oscillations with alternating up/down movements around ~35% center
+- Latest observation: Continued oscillation with slight increase from previous level
 
 ## 🚀 Key Events
 
 ### Significant Changes (>5%)
 
-1. **-12.24%** (dataset 18→19): Largest drop in the entire observation period ⚡
+1. **-13.08%** (dataset 18→19): Largest drop in the entire observation period ⚡
 2. **+11.27%** (dataset 13→14): Maximum growth for the period ⚡
-3. **+9.08%** (dataset 20→21): Strong recovery after correction ⚡
+3. **+8.92%** (dataset 20→21): Strong recovery after correction ⚡
 4. **-7.72%** (dataset 24→25): Sharp correction after recovery peak
 5. **+7.02%** (dataset 4→5): First significant jump
 6. **-7.23%** (dataset 14→15): Correction after peak

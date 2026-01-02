@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1550" height="700" xmlns="http://www.w3.org/2000/svg">
+<svg width="1600" height="700" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .point-label {
+      text-anchor: middle;
+      font-size: 11px;
+      font-weight: bold;
+      font-family: cursive;
+    }
+  </style>
   <!-- Background -->
-  <rect width="1550" height="700" fill="#ffffff" />
+  <rect width="1600" height="700" fill="#ffffff" />
 
   <!-- Title -->
   <text
@@ -12,7 +20,7 @@
     font-weight="bold"
     fill="#1a1a1a"
   >
-    60Percent Dynamics Across Datasets (2-25)
+    60Percent Dynamics Across Datasets (2-26)
   </text>
   <text x="700" y="65" text-anchor="middle" font-size="14" fill="#666">
     Analysis of competitive percentile changes over time
@@ -21,11 +29,11 @@
   <!-- Chart area -->
   <g transform="translate(100, 100)">
     <!-- Grid lines (horizontal) -->
-    <line x1="0" y1="0" x2="1380" y2="0" stroke="#e0e0e0" stroke-width="1" />
+    <line x1="0" y1="0" x2="1440" y2="0" stroke="#e0e0e0" stroke-width="1" />
     <line
       x1="0"
       y1="100"
-      x2="1380"
+      x2="1440"
       y2="100"
       stroke="#e0e0e0"
       stroke-width="1"
@@ -33,7 +41,7 @@
     <line
       x1="0"
       y1="200"
-      x2="1380"
+      x2="1440"
       y2="200"
       stroke="#e0e0e0"
       stroke-width="1"
@@ -41,7 +49,7 @@
     <line
       x1="0"
       y1="300"
-      x2="1380"
+      x2="1440"
       y2="300"
       stroke="#e0e0e0"
       stroke-width="1"
@@ -49,7 +57,7 @@
     <line
       x1="0"
       y1="400"
-      x2="1380"
+      x2="1440"
       y2="400"
       stroke="#e0e0e0"
       stroke-width="1"
@@ -57,10 +65,129 @@
     <line
       x1="0"
       y1="500"
-      x2="1380"
+      x2="1440"
       y2="500"
       stroke="#e0e0e0"
       stroke-width="1"
+    />
+
+    <!-- Vertical lines for even datasets -->
+    <line
+      x1="0"
+      y1="0"
+      x2="0"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="120"
+      y1="0"
+      x2="120"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="240"
+      y1="0"
+      x2="240"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="360"
+      y1="0"
+      x2="360"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="480"
+      y1="0"
+      x2="480"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="600"
+      y1="0"
+      x2="600"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="720"
+      y1="0"
+      x2="720"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="840"
+      y1="0"
+      x2="840"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="960"
+      y1="0"
+      x2="960"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="1080"
+      y1="0"
+      x2="1080"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="1200"
+      y1="0"
+      x2="1200"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="1320"
+      y1="0"
+      x2="1320"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
+    />
+    <line
+      x1="1440"
+      y1="0"
+      x2="1440"
+      y2="500"
+      stroke="#000"
+      stroke-width="1"
+      opacity="0.1"
     />
 
     <!-- Y-axis labels -->
@@ -80,7 +207,7 @@
     <text x="-10" y="505" text-anchor="end" font-size="12" fill="#666">0%</text>
 
     <!-- X-axis -->
-    <line x1="0" y1="500" x2="1380" y2="500" stroke="#333" stroke-width="2" />
+    <line x1="0" y1="500" x2="1440" y2="500" stroke="#333" stroke-width="2" />
     <!-- Y-axis -->
     <line x1="0" y1="0" x2="0" y2="500" stroke="#333" stroke-width="2" />
 
@@ -155,6 +282,9 @@
     <text x="1380" y="520" text-anchor="middle" font-size="11" fill="#666">
       25
     </text>
+    <text x="1440" y="520" text-anchor="middle" font-size="11" fill="#666">
+      26
+    </text>
 
     <!-- Data points: (x, y) where x = (dataset-2)*60, y = 500 - (percent * 10) -->
     <!-- Dataset 2: 21.46% -> y = 500 - 214.6 = 285.4 -->
@@ -181,50 +311,11 @@
     <!-- Dataset 23: 35.11% -> y = 500 - 351.1 = 148.9 -->
     <!-- Dataset 24: 40.61% -> y = 500 - 406.1 = 93.9 -->
     <!-- Dataset 25: 32.89% -> y = 500 - 328.9 = 171.1 -->
-
-    <!-- Phase backgrounds -->
-    <!-- Phase 1: datasets 2-6 (x: 0-240) -->
-    <rect x="0" y="0" width="240" height="500" fill="#22c55e" opacity="0.05" />
-    <!-- Phase 2: datasets 6-9 (x: 240-420) -->
-    <rect
-      x="240"
-      y="0"
-      width="180"
-      height="500"
-      fill="#3b82f6"
-      opacity="0.05"
-    />
-    <!-- Phase 3: datasets 9-14 (x: 420-720) -->
-    <rect
-      x="420"
-      y="0"
-      width="300"
-      height="500"
-      fill="#f59e0b"
-      opacity="0.05"
-    />
-    <!-- Phase 4: datasets 14-17 (x: 720-900) -->
-    <rect
-      x="720"
-      y="0"
-      width="180"
-      height="500"
-      fill="#8b5cf6"
-      opacity="0.05"
-    />
-    <!-- Phase 5: datasets 18-25 (x: 960-1380) -->
-    <rect
-      x="960"
-      y="0"
-      width="420"
-      height="500"
-      fill="#ef4444"
-      opacity="0.05"
-    />
+    <!-- Dataset 26: 32.10% -> y = 500 - 321.0 = 179.0 -->
 
     <!-- Main line (polyline connecting all points) -->
     <polyline
-      points="0,285.4 60,303.8 120,280 180,209.8 240,185.5 300,157.9 360,123.8 420,121.6 480,141 540,189.9 600,178 660,156 720,43.3 780,115.6 840,122.4 900,100.8 960,74 1020,196.4 1080,169.1 1140,78.3 1200,112.8 1260,148.9 1320,93.9 1380,171.1"
+      points="0,285.4 60,303.8 120,280 180,209.8 240,185.5 300,157.9 360,123.8 420,121.6 480,141 540,189.9 600,178 660,156 720,43.3 780,115.6 840,122.4 900,100.8 960,61.6 1020,192.4 1080,166.1 1140,76.9 1200,109.1 1260,145.8 1320,91.1 1380,171.1 1440,175"
       fill="none"
       stroke="#2563eb"
       stroke-width="3"
@@ -244,7 +335,7 @@
       cx="60"
       cy="303.8"
       r="5"
-      fill="#2563eb"
+      fill="#ef4444"
       stroke="#fff"
       stroke-width="2"
     />
@@ -292,7 +383,7 @@
       cx="420"
       cy="121.6"
       r="5"
-      fill="#2563eb"
+      fill="#22c55e"
       stroke="#fff"
       stroke-width="2"
     />
@@ -308,7 +399,7 @@
       cx="540"
       cy="189.9"
       r="5"
-      fill="#2563eb"
+      fill="#ef4444"
       stroke="#fff"
       stroke-width="2"
     />
@@ -332,7 +423,7 @@
       cx="720"
       cy="43.3"
       r="6"
-      fill="#ef4444"
+      fill="#22c55e"
       stroke="#fff"
       stroke-width="2"
     />
@@ -348,7 +439,7 @@
       cx="840"
       cy="122.4"
       r="5"
-      fill="#2563eb"
+      fill="#ef4444"
       stroke="#fff"
       stroke-width="2"
     />
@@ -362,15 +453,15 @@
     />
     <circle
       cx="960"
-      cy="74"
+      cy="61.6"
       r="5"
-      fill="#2563eb"
+      fill="#22c55e"
       stroke="#fff"
       stroke-width="2"
     />
     <circle
       cx="1020"
-      cy="196.4"
+      cy="192.4"
       r="6"
       fill="#ef4444"
       stroke="#fff"
@@ -378,7 +469,7 @@
     />
     <circle
       cx="1080"
-      cy="169.1"
+      cy="166.1"
       r="5"
       fill="#2563eb"
       stroke="#fff"
@@ -386,7 +477,7 @@
     />
     <circle
       cx="1140"
-      cy="78.3"
+      cy="76.9"
       r="6"
       fill="#22c55e"
       stroke="#fff"
@@ -394,7 +485,7 @@
     />
     <circle
       cx="1200"
-      cy="112.8"
+      cy="109.1"
       r="5"
       fill="#2563eb"
       stroke="#fff"
@@ -402,15 +493,15 @@
     />
     <circle
       cx="1260"
-      cy="148.9"
+      cy="145.8"
       r="5"
-      fill="#2563eb"
+      fill="#ef4444"
       stroke="#fff"
       stroke-width="2"
     />
     <circle
       cx="1320"
-      cy="93.9"
+      cy="91.1"
       r="6"
       fill="#22c55e"
       stroke="#fff"
@@ -419,156 +510,91 @@
     <circle
       cx="1380"
       cy="171.1"
-      r="6"
-      fill="#ef4444"
+      r="5"
+      fill="#2563eb"
+      stroke="#fff"
+      stroke-width="2"
+    />
+    <circle
+      cx="1440"
+      cy="175"
+      r="5"
+      fill="#2563eb"
       stroke="#fff"
       stroke-width="2"
     />
 
-    <!-- Value labels for key points -->
-    <text
-      x="720"
-      y="30"
-      text-anchor="middle"
-      font-size="11"
-      font-weight="bold"
-      fill="#ef4444"
-    >
-      45.67%
-    </text>
-    <text
-      x="1020"
-      y="215"
-      text-anchor="middle"
-      font-size="11"
-      font-weight="bold"
-      fill="#ef4444"
-    >
-      30.36%
-    </text>
-    <text
-      x="1140"
-      y="65"
-      text-anchor="middle"
-      font-size="11"
-      font-weight="bold"
-      fill="#22c55e"
-    >
-      42.17%
-    </text>
-    <text x="960" y="60" text-anchor="middle" font-size="10" fill="#666">
-      42.60%
-    </text>
-    <text x="1200" y="100" text-anchor="middle" font-size="10" fill="#666">
-      38.72%
-    </text>
-    <text x="1260" y="136" text-anchor="middle" font-size="10" fill="#666">
-      35.11%
-    </text>
-    <text
-      x="1320"
-      y="80"
-      text-anchor="middle"
-      font-size="11"
-      font-weight="bold"
-      fill="#22c55e"
-    >
-      40.61%
-    </text>
-    <text x="1380" y="158" text-anchor="middle" font-size="10" fill="#666">
-      32.89%
-    </text>
+    <!-- Value labels for all points -->
+    <rect x="-25" y="260" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="0" y="274" class="point-label" fill="#666">21.46%</text>
+    <rect x="35" y="312" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="60" y="326" class="point-label" fill="#ef4444">19.62%</text>
+    <rect x="95" y="254" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="120" y="268" class="point-label" fill="#666">22.00%</text>
+    <rect x="155" y="179" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="180" y="193" class="point-label" fill="#666">29.02%</text>
+    <rect x="215" y="160" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="240" y="174" class="point-label" fill="#666">31.45%</text>
+    <rect x="275" y="127" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="300" y="141" class="point-label" fill="#666">34.21%</text>
+    <rect x="335" y="91" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="360" y="105" class="point-label" fill="#666">37.62%</text>
+    <rect x="395" y="89" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="420" y="103" class="point-label" fill="#22c55e">37.84%</text>
+    <rect x="455" y="153" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="480" y="167" class="point-label" fill="#666">35.90%</text>
+    <rect x="515" y="201" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="540" y="215" class="point-label" fill="#ef4444">31.01%</text>
+    <rect x="575" y="189" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="600" y="203" class="point-label" fill="#666">32.20%</text>
+    <rect x="635" y="168" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="660" y="182" class="point-label" fill="#666">34.40%</text>
+    <rect x="695" y="18" width="50" height="20" fill="white" opacity="0.9" />
+    <text x="720" y="32" class="point-label" fill="#22c55e">45.67%</text>
+    <rect x="995" y="199" width="50" height="20" fill="white" opacity="0.9" />
+    <text x="1020" y="213" class="point-label" fill="#ef4444">30.76%</text>
+    <rect x="1115" y="52" width="50" height="20" fill="white" opacity="0.9" />
+    <text x="1140" y="66" class="point-label" fill="#22c55e">42.31%</text>
+    <rect x="755" y="125" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="780" y="139" class="point-label" fill="#666">38.44%</text>
+    <rect x="815" y="132" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="840" y="146" class="point-label" fill="#ef4444">37.76%</text>
+    <rect x="875" y="110" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="900" y="124" class="point-label" fill="#666">39.92%</text>
+    <rect x="935" y="35" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="960" y="49" class="point-label" fill="#22c55e">43.84%</text>
+    <rect x="1055" y="177" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="1080" y="191" class="point-label" fill="#666">33.39%</text>
+    <rect x="1175" y="76" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="1200" y="90" class="point-label" fill="#666">39.09%</text>
+    <rect x="1235" y="154" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="1260" y="168" class="point-label" fill="#ef4444">35.42%</text>
+    <rect x="1295" y="66" width="50" height="20" fill="white" opacity="0.9" />
+    <text x="1320" y="80" class="point-label" fill="#22c55e">40.89%</text>
+    <rect x="1355" y="178" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="1380" y="192" class="point-label" fill="#666">32.89%</text>
+    <rect x="1415" y="180" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="1440" y="194" class="point-label" fill="#666">32.50%</text>
 
     <!-- Average line -->
     <line
       x1="0"
-      y1="157"
-      x2="1380"
-      y2="157"
+      y1="157.1"
+      x2="1440"
+      y2="157.1"
       stroke="#f59e0b"
       stroke-width="2"
       stroke-dasharray="5,5"
       opacity="0.6"
     />
-    <text x="1330" y="175" font-size="11" fill="#f59e0b">Avg: 34.34%</text>
-
-    <!-- V-shaped recovery annotation -->
-    <path
-      d="M 960 74 L 1020 196.4 L 1140 78.3 L 1200 112.8 L 1260 148.9 L 1320 93.9 L 1380 171.1"
-      fill="none"
-      stroke="#ef4444"
-      stroke-width="2"
-      stroke-dasharray="3,3"
-      opacity="0.4"
-    />
-    <text
-      x="1170"
-      y="250"
-      text-anchor="middle"
-      font-size="11"
-      font-weight="bold"
-      fill="#ef4444"
-    >
-      Oscillation with Mean Reversion
-    </text>
-  </g>
-
-  <!-- Legend -->
-  <g transform="translate(100, 620)">
-    <text x="0" y="0" font-size="13" font-weight="bold" fill="#333">
-      Phases:
-    </text>
-    <rect x="10" y="10" width="15" height="15" fill="#22c55e" opacity="0.3" />
-    <text x="30" y="22" font-size="11" fill="#666">
-      Phase 1 (2-6): Initial Growth
-    </text>
-
-    <rect x="180" y="10" width="15" height="15" fill="#3b82f6" opacity="0.3" />
-    <text x="200" y="22" font-size="11" fill="#666">
-      Phase 2 (6-9): Active Growth
-    </text>
-
-    <rect x="360" y="10" width="15" height="15" fill="#f59e0b" opacity="0.3" />
-    <text x="380" y="22" font-size="11" fill="#666">
-      Phase 3 (9-14): Volatility
-    </text>
-
-    <rect x="540" y="10" width="15" height="15" fill="#8b5cf6" opacity="0.3" />
-    <text x="560" y="22" font-size="11" fill="#666">
-      Phase 4 (14-17): Stabilization
-    </text>
-
-    <rect x="740" y="10" width="15" height="15" fill="#ef4444" opacity="0.3" />
-    <text x="760" y="22" font-size="11" fill="#666">
-      Phase 5 (18-25): High Volatility
-    </text>
-
-    <circle
-      cx="960"
-      cy="17.5"
-      r="5"
-      fill="#ef4444"
-      stroke="#fff"
-      stroke-width="2"
-    />
-    <text x="975" y="22" font-size="11" fill="#666">Key Events</text>
-
-    <circle
-      cx="1060"
-      cy="17.5"
-      r="5"
-      fill="#22c55e"
-      stroke="#fff"
-      stroke-width="2"
-    />
-    <text x="1075" y="22" font-size="11" fill="#666">Recovery</text>
+    <text x="70" y="145" font-size="11" fill="#f59e0b">Avg: 34.29%</text>
   </g>
 
   <!-- Stats box -->
   <g transform="translate(100, 655)">
     <text x="0" y="0" font-size="11" fill="#666">
       Min: 19.62% (DS 3) | Max: 45.67% (DS 14) | Range: 26.05% | Total Datasets:
-      24 | Data Points: 115
+      25 | Data Points: 132 | Avg: 34.29%
     </text>
   </g>
 </svg>
