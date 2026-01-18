@@ -952,5 +952,106 @@
         "predicted_percent": 7.76
       }
     ]
+  },
+  "27": {
+    "line": "0.000000000000x^7 + 0.000000000000x^6 - 0.000000000000x^5 + 0.000000000000x^4 - 0.000000000014x^3 + 0.000000489374x^2 - 0.009053270882x + 149.033329172818",
+    "coefficients": [
+      149.033329172818,
+      -0.00905327088151021,
+      4.893744199643388e-7,
+      -1.4263721155318941e-11,
+      2.2068345481463432e-16,
+      -1.8761406284630376e-21,
+      8.358560769600202e-27,
+      -1.5335035844161368e-32
+    ],
+    "60Percent": 34.84,
+    "data": [
+      {
+        "score": 99650,
+        "percent": 5.88,
+        "predicted_percent": 5.82
+      },
+      {
+        "score": 102974,
+        "percent": 4.96,
+        "predicted_percent": 5.02
+      },
+      {
+        "score": 119490,
+        "percent": 2.28,
+        "predicted_percent": 2.28
+      },
+      {
+        "score": 12719,
+        "percent": 88.89,
+        "predicted_percent": 88.89
+      },
+      {
+        "score": 32747,
+        "percent": 69.25,
+        "predicted_percent": 69.27
+      },
+      {
+        "score": 47894,
+        "percent": 51.59,
+        "predicted_percent": 51.35
+      },
+      {
+        "score": 56269,
+        "percent": 39.14,
+        "predicted_percent": 39.79
+      },
+      {
+        "score": 62550,
+        "percent": 31.88,
+        "predicted_percent": 31.62
+      },
+      {
+        "score": 64357,
+        "percent": 29.7,
+        "predicted_percent": 29.44
+      },
+      {
+        "score": 65898,
+        "percent": 27.84,
+        "predicted_percent": 27.66
+      },
+      {
+        "score": 71012,
+        "percent": 22.22,
+        "predicted_percent": 22.24
+      },
+      {
+        "score": 70603,
+        "percent": 22.64,
+        "predicted_percent": 22.65
+      },
+      {
+        "score": 71963,
+        "percent": 21.25,
+        "predicted_percent": 21.33
+      },
+      {
+        "score": 72674,
+        "percent": 20.59,
+        "predicted_percent": 20.66
+      },
+      {
+        "score": 73505,
+        "percent": 19.79,
+        "predicted_percent": 19.91
+      },
+      {
+        "score": 84815,
+        "percent": 11.71,
+        "predicted_percent": 11.73
+      },
+      {
+        "score": 91516,
+        "percent": 8.55,
+        "predicted_percent": 8.51
+      }
+    ]
   }
 }

@@ -29,22 +29,23 @@
 | 24      | 40.89%    | 8           | +5.47% ⚡            |
 | 25      | 32.89%    | 7           | -8.00% 📉            |
 | 26      | 32.50%    | 17          | -0.39%               |
+| 27      | 34.84%    | 17          | +2.34%               |
 
 ## 📈 Basic Statistics
 
 - **Minimum value:** 19.62% (dataset 3)
 - **Maximum value:** 45.67% (dataset 14)
-- **Average value:** 34.29% (updated)
+- **Average value:** 34.40% (updated)
 - **Range:** 26.05%
-- **Total datasets:** 25
+- **Total datasets:** 26
 
 ## 🔍 Trend Analysis
 
 ### Long-term Dynamics
 
 - **First 5 datasets (2-6):** 24.71% on average
-- **Last 5 datasets (22-26):** 35.89% on average
-- **Overall growth:** +11.18% (+45.2% relative growth)
+- **Last 5 datasets (23-27):** 35.72% on average
+- **Overall growth:** +11.01% (+44.5% relative growth)
 
 ### Development Phases
 
@@ -84,9 +85,10 @@
 - Dataset 24: 40.89% (8 data points, 4th degree polynomial) - renewed upward movement (+5.47%)
 - Dataset 25: 32.89% (7 data points, 3rd degree polynomial) - sharp correction (-7.72%)
 - Dataset 26: 32.50% (17 data points, 7th degree polynomial) - continued decline (-0.39%)
-- Quality: Variable number of points per dataset (7-17 points), with dataset 26 having record 17 points
+- Dataset 27: 34.84% (17 data points, 7th degree polynomial) - moderate recovery (+2.34%)
+- Quality: Variable number of points per dataset (7-17 points), with datasets 26 and 27 having 17 points each
 - Pattern: Persistent oscillations with alternating up/down movements around ~35% center
-- Latest observation: Continued oscillation with slight increase from previous level
+- Latest observation: Moderate recovery continuing oscillation pattern
 
 ## 🚀 Key Events
 

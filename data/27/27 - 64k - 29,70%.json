@@ -1,0 +1,231 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2026,
+      "month": 1,
+      "day": 2,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2026,
+      "month": 1,
+      "day": 16,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 2970,
+    "list": [
+      {
+        "score": 23432,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2026,
+          "month": 1,
+          "day": 13,
+          "hour": 9,
+          "minute": 6,
+          "second": 12
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/ecaede3eb9850ecfd28322fbf81a0c54.png",
+            "name": "Primordial Nightmare",
+            "race_icon": "",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/c264fd36b5b9bd46947854695629c991.png",
+            "desc": "· Agent ATK <color=#2BAD00>increases by 16%</color>, and enemy Stun DMG Multiplier <color=#2BAD00>increases by 30%</color>.\\n· When in Ether Veil, Agent attacks that hit enemies ignore <color=#2BAD00>10%</color> of <color=#F0D12B>Physical RES</color> and <color=#2BAD00>15%</color> of DEF.",
+            "name": "Focus Energy"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1341,
+            "level": 60,
+            "element_type": 202,
+            "avatar_profession": 5,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1341.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1061,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 1,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1061.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1351,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 2,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1351.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54020,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/82ef480c05aade1bd9c7c37d350a18c0.png"
+        }
+      },
+      {
+        "score": 20317,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2026,
+          "month": 1,
+          "day": 12,
+          "hour": 23,
+          "minute": 55,
+          "second": 35
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/172efb0b0f901ba123b7e6c5b95f3817.png",
+            "name": "Miasmic Fiend - Unfathomable",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/e42b0ec23d884df4991a161c0cb977fb.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/dd780ec6c7ea476f53ba3dae1c7dc4d3.png",
+            "desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 40</color>.\\n· When inflicting Attribute Anomaly on enemies, their DEF is <color=#2BAD00>reduced by 10%</color>, and Agent Anomaly DMG against them <color=#2BAD00>increases by 20%</color> for 10 seconds. Repeated triggers reset the duration.",
+            "name": "Dream Delusion"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1031,
+            "level": 60,
+            "element_type": 205,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1031_3110311.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1281,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 3,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1281.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1151,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 4,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1151.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 53014,
+          "rarity": "A",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/cf5c75fb12022600b2a0523d93a8223f.png"
+        }
+      },
+      {
+        "score": 20608,
+        "star": 3,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2026,
+          "month": 1,
+          "day": 15,
+          "hour": 10,
+          "minute": 58,
+          "second": 51
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/970381083f6c2c8513035040f07582e1.png",
+            "name": "Wandering Hunter",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/e42b0ec23d884df4991a161c0cb977fb.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/4e99931041b2d355f100b592ec0f3b5c.png",
+            "desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration.",
+            "name": "Sonata"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1441,
+            "level": 60,
+            "element_type": 201,
+            "avatar_profession": 6,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1441.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1421,
+            "level": 60,
+            "element_type": 200,
+            "avatar_profession": 5,
+            "rarity": "A",
+            "rank": 6,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1421.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1361,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 0,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1361.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54019,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/8625bf080e87be6ed3804ca15f6fbe57.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "Winged_Kars",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/e8ef07841c393cbd08f264b5d49aecc4.png",
+    "total_score": 64357,
+    "total_star": 9,
+    "zone_id": 69027,
+    "total_max_score": 195000,
+    "room_max_score": 65000
+  }
+}

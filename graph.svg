@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1600" height="700" xmlns="http://www.w3.org/2000/svg">
+<svg
+  width="1660"
+  height="700"
+  viewBox="0 0 1660 700"
+  xmlns="http://www.w3.org/2000/svg"
+>
   <style>
     .point-label {
       text-anchor: middle;
@@ -9,31 +14,31 @@
     }
   </style>
   <!-- Background -->
-  <rect width="1600" height="700" fill="#ffffff" />
+  <rect width="1660" height="700" fill="#ffffff" />
 
   <!-- Title -->
   <text
-    x="700"
+    x="830"
     y="40"
     text-anchor="middle"
     font-size="26"
     font-weight="bold"
     fill="#1a1a1a"
   >
-    60Percent Dynamics Across Datasets (2-26)
+    60Percent Dynamics Across Datasets (2-27)
   </text>
-  <text x="700" y="65" text-anchor="middle" font-size="14" fill="#666">
+  <text x="830" y="65" text-anchor="middle" font-size="14" fill="#666">
     Analysis of competitive percentile changes over time
   </text>
 
   <!-- Chart area -->
   <g transform="translate(100, 100)">
     <!-- Grid lines (horizontal) -->
-    <line x1="0" y1="0" x2="1440" y2="0" stroke="#e0e0e0" stroke-width="1" />
+    <line x1="0" y1="0" x2="1500" y2="0" stroke="#e0e0e0" stroke-width="1" />
     <line
       x1="0"
       y1="100"
-      x2="1440"
+      x2="1500"
       y2="100"
       stroke="#e0e0e0"
       stroke-width="1"
@@ -41,7 +46,7 @@
     <line
       x1="0"
       y1="200"
-      x2="1440"
+      x2="1500"
       y2="200"
       stroke="#e0e0e0"
       stroke-width="1"
@@ -49,7 +54,7 @@
     <line
       x1="0"
       y1="300"
-      x2="1440"
+      x2="1500"
       y2="300"
       stroke="#e0e0e0"
       stroke-width="1"
@@ -57,7 +62,7 @@
     <line
       x1="0"
       y1="400"
-      x2="1440"
+      x2="1500"
       y2="400"
       stroke="#e0e0e0"
       stroke-width="1"
@@ -65,7 +70,7 @@
     <line
       x1="0"
       y1="500"
-      x2="1440"
+      x2="1500"
       y2="500"
       stroke="#e0e0e0"
       stroke-width="1"
@@ -207,7 +212,7 @@
     <text x="-10" y="505" text-anchor="end" font-size="12" fill="#666">0%</text>
 
     <!-- X-axis -->
-    <line x1="0" y1="500" x2="1440" y2="500" stroke="#333" stroke-width="2" />
+    <line x1="0" y1="500" x2="1500" y2="500" stroke="#333" stroke-width="2" />
     <!-- Y-axis -->
     <line x1="0" y1="0" x2="0" y2="500" stroke="#333" stroke-width="2" />
 
@@ -285,6 +290,9 @@
     <text x="1440" y="520" text-anchor="middle" font-size="11" fill="#666">
       26
     </text>
+    <text x="1500" y="520" text-anchor="middle" font-size="11" fill="#666">
+      27
+    </text>
 
     <!-- Data points: (x, y) where x = (dataset-2)*60, y = 500 - (percent * 10) -->
     <!-- Dataset 2: 21.46% -> y = 500 - 214.6 = 285.4 -->
@@ -315,7 +323,7 @@
 
     <!-- Main line (polyline connecting all points) -->
     <polyline
-      points="0,285.4 60,303.8 120,280 180,209.8 240,185.5 300,157.9 360,123.8 420,121.6 480,141 540,189.9 600,178 660,156 720,43.3 780,115.6 840,122.4 900,100.8 960,61.6 1020,192.4 1080,166.1 1140,76.9 1200,109.1 1260,145.8 1320,91.1 1380,171.1 1440,175"
+      points="0,285.4 60,303.8 120,280 180,209.8 240,185.5 300,157.9 360,123.8 420,121.6 480,141 540,189.9 600,178 660,156 720,43.3 780,115.6 840,122.4 900,100.8 960,61.6 1020,192.4 1080,166.1 1140,76.9 1200,109.1 1260,145.8 1320,91.1 1380,171.1 1440,175 1500,151.6"
       fill="none"
       stroke="#2563eb"
       stroke-width="3"
@@ -523,6 +531,14 @@
       stroke="#fff"
       stroke-width="2"
     />
+    <circle
+      cx="1500"
+      cy="151.6"
+      r="5"
+      fill="#2563eb"
+      stroke="#fff"
+      stroke-width="2"
+    />
 
     <!-- Value labels for all points -->
     <rect x="-25" y="260" width="50" height="18" fill="white" opacity="0.8" />
@@ -575,26 +591,28 @@
     <text x="1380" y="192" class="point-label" fill="#666">32.89%</text>
     <rect x="1415" y="180" width="50" height="18" fill="white" opacity="0.8" />
     <text x="1440" y="194" class="point-label" fill="#666">32.50%</text>
+    <rect x="1475" y="115" width="50" height="18" fill="white" opacity="0.8" />
+    <text x="1500" y="129" class="point-label" fill="#666">34.84%</text>
 
     <!-- Average line -->
     <line
       x1="0"
-      y1="157.1"
-      x2="1440"
-      y2="157.1"
+      y1="156.0"
+      x2="1500"
+      y2="156.0"
       stroke="#f59e0b"
       stroke-width="2"
       stroke-dasharray="5,5"
       opacity="0.6"
     />
-    <text x="70" y="145" font-size="11" fill="#f59e0b">Avg: 34.29%</text>
+    <text x="70" y="145" font-size="11" fill="#f59e0b">Avg: 34.40%</text>
   </g>
 
   <!-- Stats box -->
-  <g transform="translate(100, 655)">
-    <text x="0" y="0" font-size="11" fill="#666">
+  <g transform="translate(730, 655)">
+    <text x="0" y="0" text-anchor="middle" font-size="11" fill="#666">
       Min: 19.62% (DS 3) | Max: 45.67% (DS 14) | Range: 26.05% | Total Datasets:
-      25 | Data Points: 132 | Avg: 34.29%
+      26 | Data Points: 149 | Avg: 34.40%
     </text>
   </g>
 </svg>

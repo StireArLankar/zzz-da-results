@@ -1,0 +1,99 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "start_time": {
+      "year": 2026,
+      "month": 1,
+      "day": 2,
+      "hour": 4,
+      "minute": 0,
+      "second": 0
+    },
+    "end_time": {
+      "year": 2026,
+      "month": 1,
+      "day": 16,
+      "hour": 3,
+      "minute": 59,
+      "second": 59
+    },
+    "rank_percent": 8889,
+    "list": [
+      {
+        "score": 12719,
+        "star": 1,
+        "total_star": 3,
+        "challenge_time": {
+          "year": 2026,
+          "month": 1,
+          "day": 3,
+          "hour": 4,
+          "minute": 51,
+          "second": 24
+        },
+        "boss": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/172efb0b0f901ba123b7e6c5b95f3817.png",
+            "name": "Miasmic Fiend - Unfathomable",
+            "race_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/e42b0ec23d884df4991a161c0cb977fb.png",
+            "bg_icon": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/boss_bg/boss_bg_4.png"
+          }
+        ],
+        "buffer": [
+          {
+            "icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/4e99931041b2d355f100b592ec0f3b5c.png",
+            "desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration.",
+            "name": "Sonata"
+          }
+        ],
+        "avatar_list": [
+          {
+            "id": 1201,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 1,
+            "rarity": "S",
+            "rank": 3,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1201.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1361,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 2,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1361.png",
+            "sub_element_type": 0
+          },
+          {
+            "id": 1211,
+            "level": 60,
+            "element_type": 203,
+            "avatar_profession": 4,
+            "rarity": "S",
+            "rank": 1,
+            "role_square_url": "https://act-webstatic.hoyoverse.com/game_record/zzzv2/role_square_avatar/role_square_avatar_1211.png",
+            "sub_element_type": 0
+          }
+        ],
+        "buddy": {
+          "id": 54008,
+          "rarity": "S",
+          "level": 60,
+          "bangboo_rectangle_url": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/88291824289d29603d8442df73e36b85.png"
+        }
+      }
+    ],
+    "has_data": true,
+    "nick_name": "crow",
+    "avatar_icon": "https://act-webstatic.hoyoverse.com/darkmatter/nap/prod_gf_cn/item_icon_uec84c/6ebd8ffc7620cd7f6b5a0ca0c58f84e9.png",
+    "total_score": 12719,
+    "total_star": 1,
+    "zone_id": 69027,
+    "total_max_score": 195000,
+    "room_max_score": 65000
+  }
+}

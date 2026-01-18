@@ -1,11 +1,11 @@
 # Graph Metadata for graph.svg
 # Purpose: Accelerate AI assistant's work with the SVG file
-# Last updated: 2026-01-03
+# Last updated: 2026-01-05
 
 canvas:
-  width: 1600
+  width: 1660
   height: 700
-  viewBox: '0 0 1600 700'
+  viewBox: '0 0 1660 700'
 
 chart_area:
   transform:
@@ -13,7 +13,7 @@ chart_area:
     y: 100
   x_range:
     min: 0
-    max: 1440
+    max: 1500
   y_range:
     min: 0
     max: 500
@@ -26,7 +26,7 @@ x_axis:
   line:
     x1: 0
     y1: 500
-    x2: 1440
+    x2: 1500
     y2: 500
     stroke: '#333'
     width: 2
@@ -62,6 +62,7 @@ x_axis:
         24,
         25,
         26,
+        27,
       ]
 
 y_axis:
@@ -120,9 +121,10 @@ main_line:
     - [1320, 91.1]
     - [1380, 171.1]
     - [1440, 175]
+    - [1500, 151.6]
 
 average_line:
-  y_position: 157.1
+  y_position: 156.0
   stroke: '#f59e0b'
   width: 2
   stroke_dasharray: '5,5'
@@ -130,7 +132,7 @@ average_line:
   label:
     x: 70
     y: 145
-    text: 'Avg: 34.29%'
+    text: 'Avg: 34.40%'
     font_size: 11
 
 point_styles:
@@ -678,17 +680,37 @@ data_points:
         height: 18
         opacity: 0.8
 
+  27:
+    x: 1500
+    y: 151.6
+    percent: 34.84
+    type: normal
+    svg:
+      circle_line: 401
+      label_rect_line: 538
+      label_text_line: 541
+    label:
+      x: 1500
+      y: 129
+      text: '34.84%'
+      bg:
+        x: 1475
+        y: 115
+        width: 50
+        height: 18
+        opacity: 0.8
+
 title:
   main:
-    x: 700
+    x: 830
     y: 40
-    text: '60Percent Dynamics Across Datasets (2-26)'
+    text: '60Percent Dynamics Across Datasets (2-27)'
     font_size: 26
     font_weight: bold
     fill: '#1a1a1a'
     text_anchor: middle
   subtitle:
-    x: 700
+    x: 830
     y: 65
     text: 'Analysis of competitive percentile changes over time'
     font_size: 14
@@ -697,16 +719,17 @@ title:
 
 stats_box:
   transform:
-    x: 100
+    x: 730
     y: 655
-  text: 'Min: 19.62% (DS 3) | Max: 45.67% (DS 14) | Range: 26.05% | Total Datasets: 25 | Data Points: 132 | Avg: 34.29%'
+  text: 'Min: 19.62% (DS 3) | Max: 45.67% (DS 14) | Range: 26.05% | Total Datasets: 26 | Data Points: 149 | Avg: 34.40%'
   font_size: 11
   fill: '#666'
+  text_anchor: 'middle'
 
 quick_reference:
   local_maxima: [9, 14, 18, 21, 24]
   local_minima: [3, 11, 16, 19, 23]
-  total_points: 25
+  total_points: 26
   x_step: 60
   y_scale: 10
   y_origin: 500
