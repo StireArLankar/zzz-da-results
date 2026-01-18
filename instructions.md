@@ -311,6 +311,314 @@ For adding dataset N with 60Percent value P:
 ❌ **Forgot vertical line** - Add line only for even datasets
 ❌ **Label distance inconsistency** - Above: ~12px, Below: ~19-25px
 
+## 📋 Graph Metadata (graph.metadata.yaml)
+
+### Overview
+
+`graph.metadata.yaml` contains structured metadata about `graph.svg` that accelerates AI assistant's work with the visualization file. It provides quick access to:
+
+- Canvas dimensions and coordinate system
+- Point positions, types, and labels
+- SVG element line numbers for fast navigation
+- Styling information and color codes
+- Quick reference for local minima/maxima
+
+### Metadata Structure
+
+```yaml
+canvas:
+  width: 1600
+  height: 700
+  viewBox: '0 0 1600 700'
+
+chart_area:
+  transform: { x: 100, y: 100 }
+  x_range: { min: 0, max: 1440 }
+  y_range: { min: 0, max: 500 }
+
+coordinate_system:
+  x_formula: '(dataset - 2) * 60'
+  y_formula: '500 - (percent * 10)'
+
+point_styles:
+  normal:
+    color: '#2563eb'
+    radius: 5
+  local_min:
+    color: '#ef4444'
+    radius: 5
+  local_max:
+    color: '#22c55e'
+    radius: 6
+
+data_points:
+  { dataset_number }:
+    x: { x_coordinate }
+    y: { y_coordinate }
+    percent: { value }
+    type: { normal|local_min|local_max }
+    svg:
+      circle_line: { line_number }
+      label_rect_line: { line_number }
+      label_text_line: { line_number }
+    label:
+      x: { label_x }
+      y: { label_y }
+      text: '{value}%'
+      bg: { ... }
+
+quick_reference:
+  local_maxima: [9, 14, 18, 21, 24]
+  local_minima: [3, 11, 16, 19, 23]
+```
+
+### Using Metadata for Quick Navigation
+
+#### Finding a Specific Point
+
+To quickly navigate to a dataset's elements in `graph.svg`:
+
+```bash
+# 1. Open graph.metadata.yaml
+# 2. Find dataset number, e.g., "14"
+# 3. Get line numbers:
+#    - circle_line: 315  (the point circle)
+#    - label_rect_line: 452  (background rectangle)
+#    - label_text_line: 455  (label text)
+# 4. In VS Code: Ctrl+G and enter line number to jump directly
+```
+
+#### Example: Edit Dataset 14's Label
+
+```yaml
+# From metadata:
+14:
+  svg:
+    circle_line: 315
+    label_rect_line: 452
+    label_text_line: 455
+  label:
+    text: '45.67%'
+# Actions:
+# - Press Ctrl+G, type 455, press Enter → jump to label text
+# - Press Ctrl+G, type 452, press Enter → jump to label background
+# - Press Ctrl+G, type 315, press Enter → jump to point circle
+```
+
+### Using Metadata for Adding New Datasets
+
+#### Step 1: Calculate Coordinates
+
+```yaml
+# From coordinate_system section:
+x_formula: "(dataset - 2) * 60"
+y_formula: "500 - (percent * 10)"
+
+# Example for DS 27, 60Percent = 32.10%:
+x = (27 - 2) * 60 = 1500
+y = 500 - (32.10 * 10) = 179
+```
+
+#### Step 2: Determine Point Type
+
+Compare new value with neighbors:
+
+```yaml
+# From quick_reference section:
+local_maxima: [9, 14, 18, 21, 24]
+local_minima: [3, 11, 16, 19, 23]
+# Determine if new dataset is:
+# - local_max: higher than both neighbors
+# - local_min: lower than both neighbors
+# - normal: otherwise
+```
+
+#### Step 3: Apply Correct Style
+
+```yaml
+# From point_styles section:
+normal:
+  color: '#2563eb' # Blue
+  radius: 5
+
+local_max:
+  color: '#22c55e' # Green
+  radius: 6
+
+local_min:
+  color: '#ef4444' # Red
+  radius: 5
+```
+
+#### Step 4: Add to Main Line Points
+
+```yaml
+# From main_line.points:
+main_line:
+  points:
+    - [0, 285.4]
+    - [60, 303.8]
+    ...
+    - [1440, 175]
+
+# Add new point at end:
+    - [1440, 175]
+    - [1500, 179]  # New point for DS 27
+```
+
+#### Step 5: Update Metadata
+
+After adding new dataset to `graph.svg`, update `graph.metadata.yaml`:
+
+```yaml
+data_points:
+  27:
+    x: 1500
+    y: 179
+    percent: 32.10
+    type: normal # or local_max/local_min
+    svg:
+      circle_line: { new_line_number }
+      label_rect_line: { new_line_number }
+      label_text_line: { new_line_number }
+    label:
+      x: 1500
+      y: { above_or_below }
+      text: '32.10%'
+      bg: { ... }
+
+# Update quick_reference (if needed):
+quick_reference:
+  local_maxima: [9, 14, 18, 21, 24, 27] # Add 27 if it's a maximum
+  local_minima: [3, 11, 16, 19, 23] # Add 27 if it's a minimum
+
+# Update x_axis.labels.datasets:
+x_axis:
+  labels:
+    datasets: [2, 3, 4, ..., 26, 27] # Add 27
+```
+
+### Updating Metadata After SVG Edits
+
+**⚠️ Important:** Line numbers in `svg` section may become outdated after editing `graph.svg`.
+
+**To update line numbers:**
+
+1. **Method 1: Manual update**
+
+   - Add new dataset to `data_points` section
+   - Approximate line numbers based on pattern:
+     - Each circle: 6 lines
+     - Each label pair (rect + text): 3 lines
+   - Verify with Ctrl+G in VS Code
+
+2. **Method 2: Regenerate completely**
+
+   - Ask AI assistant to regenerate `graph.metadata.yaml` from `graph.svg`
+   - Specify: "Regenerate metadata with updated line numbers"
+   - This ensures 100% accuracy
+
+3. **Method 3: Use search pattern**
+   - Use VS Code search: `cx="{x}"` where `{x}` is new point's x coordinate
+   - Find exact line number and update metadata manually
+
+### Common Use Cases
+
+#### Use Case 1: Change Label Text
+
+```bash
+# Goal: Change "32.50%" to "32.5%"
+
+# Using metadata:
+1. Find dataset 26
+2. label_text_line: 535
+3. Ctrl+G → 535 → Edit text
+
+# Without metadata:
+1. Open graph.svg
+2. Search: "32.50%"
+3. Find correct occurrence (might be multiple)
+4. Edit
+```
+
+#### Use Case 2: Change Point Color
+
+```bash
+# Goal: Make DS 14 red instead of green
+
+# Using metadata:
+1. Find dataset 14
+2. circle_line: 315
+3. Ctrl+G → 315 → Change fill="#22c55e" to fill="#ef4444"
+4. Update metadata type from local_max to local_min
+5. Update quick_reference.local_maxima: remove 14
+
+# Without metadata:
+1. Search: 'cx="720"' (x coordinate for DS 14)
+2. Find circle element
+3. Change color
+4. Remember to update label color too
+```
+
+#### Use Case 3: Find All Minima/Maxima
+
+```yaml
+# From quick_reference section:
+local_maxima: [9, 14, 18, 21, 24]
+local_minima: [3, 11, 16, 19, 23]
+
+# To edit all minima:
+# Use metadata to get line numbers:
+3:  circle_line: 247
+11: circle_line: 297
+16: circle_line: 329
+19: circle_line: 349
+23: circle_line: 375
+
+# Batch edit: Visit each line and make changes
+```
+
+### Maintenance Best Practices
+
+**✅ Do:**
+
+- Keep metadata in sync with `graph.svg`
+- Update line numbers after significant edits
+- Use metadata for quick navigation during development
+- Regenerate metadata when structure changes substantially
+
+**❌ Don't:**
+
+- Rely on outdated line numbers
+- Edit `graph.svg` without updating metadata afterward
+- Assume metadata is automatically updated (it's not)
+
+### Metadata vs Direct Editing
+
+| Task                       | Using Metadata   | Direct Editing   |
+| -------------------------- | ---------------- | ---------------- |
+| Find specific dataset      | ⚡ Fast (Ctrl+G) | 🐢 Slow (search) |
+| Change single point        | ✅ Ideal         | Works but manual |
+| Batch edit multiple points | ✅ Excellent     | Error-prone      |
+| Add new dataset            | ✅ Structured    | Works but manual |
+| Navigate SVG               | ✅ Precise       | Guesswork        |
+| Update metadata            | ⚠️ Manual step   | N/A              |
+
+### Integration with Workflow
+
+When adding new dataset:
+
+```
+1. Run: node process_data.js
+2. Get 60Percent value from compiled.json
+3. Calculate coordinates using metadata formulas
+4. Determine point type using quick_reference
+5. Add elements to graph.svg (use metadata line numbers for placement)
+6. Update graph.metadata.yaml with new dataset info
+7. Verify: Open graph.svg in browser
+8. (Optional) Regenerate metadata for accurate line numbers
+```
+
 ## ⚙️ Technical Details
 
 ### Data Extraction from JSON Files
